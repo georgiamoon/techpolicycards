@@ -114,10 +114,10 @@ Card Template: https://boardgamegeek.com/filepage/107967/fluxx-custom-card-templ
 
 ## Contributors:
 
-- OTI (Ross @rschulman, Sharon, Tiffany, Jo, Alison, Chris @critzo, Nat @natmey ...more...)
-- Jack Aponte (@jackaponte)
+- OTI (Ross [@rschulman](http://github.com/rschulman), Sharon, Tiffany, Jo, Alison, Chris [@critzo](http://github.com/critzo), Nat [@natmey](http://github.com/natmey) ...more...)
+- Jack Aponte ([@jackaponte](http://github.com/jackaponte))
 - JaimeV
 - Helyx Chase
-- Maya Wagoner (@mayawagon)
+- Maya Wagoner ([@mayawagon](http://github.com/mayawagon))
 - Kim Garcia
-- David Winslow (@dwins)
+- David Winslow ([@dwins](http://github.com/dwins))
