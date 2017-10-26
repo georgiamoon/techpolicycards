@@ -33,12 +33,13 @@ A card game, inspired by Fluxx, i.e. a game where the rules and win conditions c
 - Keepers to achieve goal
 
 ## Resources
-Card Template: https://boardgamegeek.com/filepage/107967/fluxx-custom-card-template
+Card Template: [https://boardgamegeek.com/filepage/107967/fluxx-custom-card-template](https://boardgamegeek.com/filepage/107967/fluxx-custom-card-template)
 
 ## Cards 
 
 Edit `deck.json` to add cards.
-See the current cards in the [printout.html].
+
+See the current cards in the [printout.html](printout.html).
 
 ## Contributors:
 
