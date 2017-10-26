@@ -18,6 +18,7 @@
 ### Keepers (Characters/Actors/ Items that are needed to achieve Goals)
 
 - Name
+- Category
 
 ### Actions (events that occur in one play round, can affect anyone in the game or the person playing the Action)
 

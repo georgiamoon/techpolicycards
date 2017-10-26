@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Tech Policy Card Game </title>
+<style>
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.card-container {
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 3.5in;
+    margin: 1em;
+    width: 2.25in;
+    position: relative;
+}
+
+.card-title {
+    font-family: sans-serif;
+    margin: 1em;
+    font-variant-caps: small-caps;
+    font-weight: bold;
+}
+
+.card-description {
+    font-family: monospace;
+    position: absolute;
+    right: 3em;
+    bottom: 5em;
+    width: 10em;
+}
+</style>
+    </head>
+    <body>
+        {% for card in cards %}
+        <div class="card-container">
+            <div class="card-title"> {{ card.title }} </div>
+            {% if card.artwork %}
+            <img height=250 width=250 src="{{card.artwork}}"/>
+            {% endif %}
+            <div class="card-description">
+            {% if card.is == 'action' %}
+                 {{ card.description }} 
+            {% endif %}
+            {% if card.is == 'goal' %}
+            <ul>
+                {% for keeper in card.keepers %}
+                <li> {{ keeper }} </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            {% if card.is == 'keeper' %}
+              KEEPER
+            {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </body>
+</html>

@@ -1,0 +1,20 @@
+{ "cards": [
+    { 
+        "is": "action",
+        "title": "Sneakernet",
+        "description": "Everyone picks one card to pass to the left."
+    },
+    { 
+        "is": "keeper",
+        "title": "Hackers"
+    }, {
+        "is": "goal",
+        "title": "Internet Blackout",
+        "keepers": [
+            "Political Activity",
+            "Any Country",
+            "ISPs"
+        ]
+    }
+]}
+
