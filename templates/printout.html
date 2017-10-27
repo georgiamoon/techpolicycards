@@ -16,41 +16,55 @@ body {
     margin: 1em;
     width: 2.25in;
     position: relative;
-    flex-grow: 0;
+    overflow: hidden;
 }
 
 .card-title {
     font-family: "Verdana", "Geneva", sans-serif;
     font-size: 18pt;
-    margin: 1em;
+    margin-top: 65px;
+    margin-left: 30px;
+    margin-right: 5px;
     font-variant-caps: all-petite-caps;
     font-weight: bold;
     text-align: right;
     padding: 2px;
-    order: 1;
 }
 
 .vertical-text {
     font-family: "Verdana", "Geneva", sans-serif;
-    transform: rotate(90deg);
+    transform: translate(0, -100%) rotate(90deg);
     transform-origin: left bottom 0;
-    width: 2.75in;
+    width: 3.5in;
     height: .4in;
     padding: 2px;
-    order: 0;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:-1;
 }
 
 .card-description {
     font-family: "Verdana", "Geneva", sans-serif;
     font-size: 10pt;
     position: absolute;
-    right: 3em;
-    bottom: 5em;
-    width: 10em;
-    padding: 2px;
+    right: 1em;
+    bottom: 1em;
+    width: 11em;
     text-align: right;
-    order: 2;
 }
+
+.card-description ul {
+    list-style-type: none;
+}
+
+.card-description li {
+    margin-bottom: 25px;
+    margin-left: -45px;
+    text-align: left;
+    width: 12em;
+}
+
 </style>
     </head>
     <body>
@@ -88,6 +102,7 @@ body {
                 <img height=250 width=250 src="{{card.artwork}}"/>
                 {% endif %}
               <div class="card-description">
+                {{ card.description }} 
               </div>
             {% endif %}
             
@@ -97,6 +112,7 @@ body {
                 <img height=250 width=250 src="{{card.artwork}}"/>
                 {% endif %}
               <div class="card-description">
+                {{ card.description }} 
               </div>
             {% endif %}
         </div>
