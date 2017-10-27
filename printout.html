@@ -7,7 +7,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    align-content: flex-start;
 }
 
 .card-container {
@@ -17,30 +16,40 @@ body {
     margin: 1em;
     width: 2.25in;
     position: relative;
-    align-items: flex-end;
+    flex-grow: 0;
 }
 
 .card-title {
     font-family: "Verdana", "Geneva", sans-serif;
+    font-size: 18pt;
     margin: 1em;
-    font-variant-caps: small-caps;
+    font-variant-caps: all-petite-caps;
     font-weight: bold;
+    text-align: right;
+    padding: 2px;
+    order: 1;
 }
 
 .vertical-text {
     font-family: "Verdana", "Geneva", sans-serif;
-    transform: rotate(270deg);
-    transform-origin: left top 0;
-    width: 100%;
-    height: .5in;
+    transform: rotate(90deg);
+    transform-origin: left bottom 0;
+    width: 2.75in;
+    height: .4in;
+    padding: 2px;
+    order: 0;
 }
 
 .card-description {
     font-family: "Verdana", "Geneva", sans-serif;
+    font-size: 10pt;
     position: absolute;
     right: 3em;
     bottom: 5em;
     width: 10em;
+    padding: 2px;
+    text-align: right;
+    order: 2;
 }
 </style>
     </head>
@@ -50,8 +59,8 @@ body {
             <div class="card-title"> Sneakernet </div>
             
             
-            
                 <div class="vertical-text" style="background-color: green;">ACTION</div>
+                
                  <div class="card-description">
                  Everyone chooses one card to pass to the left.  If your hand is empty, you just receive a card (don’t have to draw or pass. 
                  </div>
@@ -72,8 +81,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -87,8 +96,8 @@ body {
             
             
             
-            
                 <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                
                 <div class="card-description">
                 <ul>
                     
@@ -117,8 +126,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: yellow;">RULE</div>
+                
               <div class="card-description">
               </div>
             
@@ -134,8 +143,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: yellow;">RULE</div>
+                
               <div class="card-description">
               </div>
             
@@ -151,8 +160,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: yellow;">RULE</div>
+                
               <div class="card-description">
               </div>
             
@@ -168,8 +177,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: yellow;">RULE</div>
+                
               <div class="card-description">
               </div>
             
@@ -185,8 +194,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: yellow;">RULE</div>
+                
               <div class="card-description">
               </div>
             
@@ -202,8 +211,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: yellow;">RULE</div>
+                
               <div class="card-description">
               </div>
             
@@ -219,8 +228,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: yellow;">RULE</div>
+                
               <div class="card-description">
               </div>
             
@@ -236,8 +245,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: yellow;">RULE</div>
+                
               <div class="card-description">
               </div>
             
@@ -251,8 +260,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -268,8 +277,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -285,8 +294,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -302,8 +311,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -319,8 +328,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -336,8 +345,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -353,8 +362,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -370,8 +379,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -387,8 +396,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -404,8 +413,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -421,8 +430,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -438,8 +447,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -455,8 +464,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -472,8 +481,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -489,8 +498,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -506,8 +515,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -523,8 +532,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -540,8 +549,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -557,8 +566,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -574,8 +583,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -591,8 +600,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -608,8 +617,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -625,8 +634,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -642,8 +651,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -659,8 +668,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -676,8 +685,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -693,8 +702,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -710,8 +719,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -727,8 +736,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -744,8 +753,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -761,8 +770,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -778,8 +787,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -795,8 +804,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -812,8 +821,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                
               <div class="card-description">
               </div>
             
@@ -825,8 +834,8 @@ body {
             <div class="card-title"> Editorial Review </div>
             
             
-            
                 <div class="vertical-text" style="background-color: green;">ACTION</div>
+                
                  <div class="card-description">
                  Discard half of any individual player&#39;s hand. You pick who is under editorial review. 
                  </div>
@@ -843,8 +852,8 @@ body {
             <div class="card-title"> Zero Day </div>
             
             
-            
                 <div class="vertical-text" style="background-color: green;">ACTION</div>
+                
                  <div class="card-description">
                  Take 1 card from up to half the players. 
                  </div>
@@ -861,8 +870,8 @@ body {
             <div class="card-title"> Data breach </div>
             
             
-            
                 <div class="vertical-text" style="background-color: green;">ACTION</div>
+                
                  <div class="card-description">
                  One player has to show their hand. 
                  </div>
@@ -879,8 +888,8 @@ body {
             <div class="card-title"> Ransomware </div>
             
             
-            
                 <div class="vertical-text" style="background-color: green;">ACTION</div>
+                
                  <div class="card-description">
                  Take all but 1 of one player&#39;s cards. You pick which player. 
                  </div>
@@ -897,8 +906,8 @@ body {
             <div class="card-title"> Mandatory Internet ID (China bans anonymous posting) </div>
             
             
-            
                 <div class="vertical-text" style="background-color: green;">ACTION</div>
+                
                  <div class="card-description">
                  All players show keepers in their hands. 
                  </div>
@@ -921,8 +930,8 @@ body {
             
             
             
-            
               <div class="vertical-text" style="background-color: yellow;">RULE</div>
+                
               <div class="card-description">
               </div>
             
@@ -932,8 +941,8 @@ body {
             <div class="card-title"> Zero Rating </div>
             
             
-            
                 <div class="vertical-text" style="background-color: green;">ACTION</div>
+                
                  <div class="card-description">
                  Play as many cards as you want on your turn. 
                  </div>
@@ -950,8 +959,8 @@ body {
             <div class="card-title"> Classified information leaked </div>
             
             
-            
                 <div class="vertical-text" style="background-color: green;">ACTION</div>
+                
                  <div class="card-description">
                  Every player holding a surveillance agency has to play their keeper. Keeper limits are not enforced. 
                  </div>
@@ -968,8 +977,8 @@ body {
             <div class="card-title"> Build an Alliance </div>
             
             
-            
                 <div class="vertical-text" style="background-color: green;">ACTION</div>
+                
                  <div class="card-description">
                  Count the number of players in the game (including yourself). Draw enough cards to give 1 card to each player, and then distribute them evenly amongst all the players. You decide who gets what. 
                  </div>
@@ -986,8 +995,8 @@ body {
             <div class="card-title"> Share the Wealth </div>
             
             
-            
                 <div class="vertical-text" style="background-color: green;">ACTION</div>
+                
                  <div class="card-description">
                  Gather up all the keepers on the table. Shuffle them together, then deal them out,giving the first card to yourself. Everyone will probably end up with a different number of Keepers in play than they started with. 
                  </div>
@@ -1004,8 +1013,8 @@ body {
             <div class="card-title"> Today’s Special </div>
             
             
-            
                 <div class="vertical-text" style="background-color: green;">ACTION</div>
+                
                  <div class="card-description">
                  Set your hand aside and draw 3 cards. If today is your birthday, play all 3 cards. If today is a holiday or special anniversary, play 2 of the cards. If it’s just another day, play only 1 card. Discard the remainder. 
                  </div>
@@ -1022,8 +1031,8 @@ body {
             <div class="card-title"> Congress changes hands </div>
             
             
-            
                 <div class="vertical-text" style="background-color: green;">ACTION</div>
+                
                  <div class="card-description">
                  Reset to Basic Rules. Discard all new rule cards, and leave only the basic rules in play. Do not discard the current Goal. 
                  </div>
@@ -1042,8 +1051,8 @@ body {
             
             
             
-            
                 <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                
                 <div class="card-description">
                 <ul>
                     
@@ -1066,8 +1075,8 @@ body {
             
             
             
-            
                 <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                
                 <div class="card-description">
                 <ul>
                     
@@ -1092,8 +1101,8 @@ body {
             
             
             
-            
                 <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                
                 <div class="card-description">
                 <ul>
                     
@@ -1118,8 +1127,8 @@ body {
             
             
             
-            
                 <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                
                 <div class="card-description">
                 <ul>
                     
@@ -1144,8 +1153,8 @@ body {
             
             
             
-            
                 <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                
                 <div class="card-description">
                 <ul>
                     
@@ -1170,8 +1179,8 @@ body {
             
             
             
-            
                 <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                
                 <div class="card-description">
                 <ul>
                     
@@ -1196,8 +1205,8 @@ body {
             
             
             
-            
                 <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                
                 <div class="card-description">
                 <ul>
                     
@@ -1220,8 +1229,8 @@ body {
             
             
             
-            
                 <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                
                 <div class="card-description">
                 <ul>
                     
@@ -1244,8 +1253,8 @@ body {
             
             
             
-            
                 <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                
                 <div class="card-description">
                 <ul>
                     
@@ -1268,8 +1277,8 @@ body {
             
             
             
-            
                 <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                
                 <div class="card-description">
                 <ul>
                     
@@ -1292,8 +1301,8 @@ body {
             
             
             
-            
                 <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                
                 <div class="card-description">
                 <ul>
                     
@@ -1316,8 +1325,8 @@ body {
             
             
             
-            
                 <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                
                 <div class="card-description">
                 <ul>
                     
@@ -1342,8 +1351,8 @@ body {
             
             
             
-            
                 <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                
                 <div class="card-description">
                 <ul>
                     
@@ -1368,8 +1377,8 @@ body {
             
             
             
-            
                 <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                
                 <div class="card-description">
                 <ul>
                     
@@ -1392,8 +1401,8 @@ body {
             
             
             
-            
                 <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                
                 <div class="card-description">
                 <ul>
                     
@@ -1416,8 +1425,8 @@ body {
             
             
             
-            
                 <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                
                 <div class="card-description">
                 <ul>
                     
@@ -1442,8 +1451,8 @@ body {
             
             
             
-            
                 <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                
                 <div class="card-description">
                 <ul>
                     
@@ -1466,8 +1475,8 @@ body {
             
             
             
-            
                 <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                
                 <div class="card-description">
                 <ul>
                     
@@ -1490,8 +1499,8 @@ body {
             
             
             
-            
                 <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                
                 <div class="card-description">
                 <ul>
                     
@@ -1514,8 +1523,8 @@ body {
             
             
             
-            
                 <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                
                 <div class="card-description">
                 <ul>
                     

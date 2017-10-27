@@ -7,7 +7,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    align-content: flex-start;
 }
 
 .card-container {
@@ -17,29 +16,40 @@ body {
     margin: 1em;
     width: 2.25in;
     position: relative;
+    flex-grow: 0;
 }
 
 .card-title {
     font-family: "Verdana", "Geneva", sans-serif;
+    font-size: 18pt;
     margin: 1em;
-    font-variant-caps: small-caps;
+    font-variant-caps: all-petite-caps;
     font-weight: bold;
+    text-align: right;
+    padding: 2px;
+    order: 1;
 }
 
 .vertical-text {
     font-family: "Verdana", "Geneva", sans-serif;
-    transform: rotate(270deg);
-    transform-origin: left top 0;
-    width: 100%;
-    height: .5in;
+    transform: rotate(90deg);
+    transform-origin: left bottom 0;
+    width: 2.75in;
+    height: .4in;
+    padding: 2px;
+    order: 0;
 }
 
 .card-description {
     font-family: "Verdana", "Geneva", sans-serif;
+    font-size: 10pt;
     position: absolute;
     right: 3em;
     bottom: 5em;
     width: 10em;
+    padding: 2px;
+    text-align: right;
+    order: 2;
 }
 </style>
     </head>
@@ -47,12 +57,12 @@ body {
         {% for card in cards %}
         <div class="card-container">
             <div class="card-title"> {{ card.title }} </div>
-            {% if card.artwork %}
-            <img height=250 width=250 src="{{card.artwork}}"/>
-            {% endif %}
             
             {% if card.is == 'action' %}
                 <div class="vertical-text" style="background-color: green;">ACTION</div>
+                {% if card.artwork %}
+                <img height=250 width=250 src="{{card.artwork}}"/>
+                {% endif %}
                  <div class="card-description">
                  {{ card.description }} 
                  </div>
@@ -60,6 +70,9 @@ body {
             
             {% if card.is == 'goal' %}
                 <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                {% if card.artwork %}
+                <img height=250 width=250 src="{{card.artwork}}"/>
+                {% endif %}
                 <div class="card-description">
                 <ul>
                     {% for keeper in card.keepers %}
@@ -71,12 +84,18 @@ body {
             
             {% if card.is == 'keeper' %}
               <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+                {% if card.artwork %}
+                <img height=250 width=250 src="{{card.artwork}}"/>
+                {% endif %}
               <div class="card-description">
               </div>
             {% endif %}
             
             {% if card.is == 'rule' %}
               <div class="vertical-text" style="background-color: yellow;">RULE</div>
+                {% if card.artwork %}
+                <img height=250 width=250 src="{{card.artwork}}"/>
+                {% endif %}
               <div class="card-description">
               </div>
             {% endif %}
