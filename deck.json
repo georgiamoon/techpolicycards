@@ -1,5 +1,9 @@
 { "cards": [
     { 
+        "is": "rule",
+        "title": "Basic Play",
+        "description": "Draw 1, Play 1"
+    },{ 
         "is": "action",
         "title": "Sneakernet",
         "description": "Everyone chooses one card to pass to the left.  If your hand is empty, you just receive a card (don’t have to draw or pass."
@@ -12,7 +16,7 @@
         "keepers": [
             "Political Activity",
             "Any Country",
-            "ISPs"
+            "Internet Service Providers (ISPs)"
         ]
     },{
         "is": "rule",
@@ -68,15 +72,15 @@
         "category": "Country"
     },{ 
         "is": "keeper",
-        "title": "FCC",
+        "title": "Federal Communications Commission (FCC)",
         "category": "Agency"
     },{ 
         "is": "keeper",
-        "title": "ICANN",
+        "title": "Internet Corporation for Assigned Names and Numbers (ICANN)",
         "category": "Agency"
     },{ 
         "is": "keeper",
-        "title": "IETF",
+        "title": "Internet Engineering Task Force (IETF)",
         "category": "Agency"
     },{ 
         "is": "keeper",
@@ -107,7 +111,7 @@
         "title": "High powered lawyer"
     },{ 
         "is": "keeper",
-        "title": "RFC (Request for Comments)"
+        "title": "Request for Comments (RFC)"
     },{ 
         "is": "keeper",
         "title": "Legal brief"
@@ -125,19 +129,19 @@
         "title": "Lawsuit"
     },{ 
         "is": "keeper",
-        "title": "NSA",
+        "title": "National Security Agency (NSA)",
         "category": "Surveillance-Agency"
     },{ 
         "is": "keeper",
-        "title": "FBI",
+        "title": "Federal Bureau of Investigations (FBI)",
         "category": "Surveillance-Agency"
     },{ 
         "is": "keeper",
-        "title": "CIA",
+        "title": "Central Intelligence Agency (CIA)",
         "category": "Surveillance-Agency"
     },{ 
         "is": "keeper",
-        "title": "GHCQ",
+        "title": "Government Communications Headquarters (GCHQ)",
         "category": "Surveillance-Agency"
     },{ 
         "is": "keeper",
@@ -145,11 +149,11 @@
         "category": "technology"
     },{ 
         "is": "keeper",
-        "title": "RIAA",
+        "title": "Recording Industry Association of America (RIAA)",
         "category": "Agency"
     },{ 
         "is": "keeper",
-        "title": "ISPs"
+        "title": "Internet Service Providers (ISPs)"
     },{ 
         "is": "keeper",
         "title": "Political Activity"
@@ -188,7 +192,7 @@
         "description": "All players show keepers in their hands."
     },{ 
         "is": "rule",
-        "title": "GPDR goes into effect",
+        "title": "General Data Protection Regulation (GDPR) goes into effect",
         "description": "The Privacy goal can be met with just 1 keeper."
     },{ 
         "is": "action",
@@ -227,7 +231,7 @@
         "keepers": [
             "Political Activity",
             "Any Country",
-            "ISPs"
+            "Internet Service Providers (ISPs)"
         ]
     },{ 
         "is": "goal",
@@ -235,13 +239,13 @@
         "keepers": [
             "Civil Society",
             "Advocacy",
-            "UN"
+            "United Nations (UN)"
         ]
     },{ 
         "is": "goal",
         "title": "Net neutrality",
         "keepers": [
-            "FCC",
+            "Federal Communications Commission (FCC)",
             "EU",
             "Any non-US, non-EU country"
         ]
@@ -257,8 +261,8 @@
         "is": "goal",
         "title": "New protocol",
         "keepers": [
-            "IETF",
-            "RFC",
+            "Internet Engineering Task Force (IETF)",
+            "Request for Comments (RFC)",
             "File Comments"
         ]
     },{ 
@@ -300,8 +304,8 @@
         "is": "goal",
         "title": "Surveil all the things",
         "keepers": [
-            "NSA",
-            "GCHQ",
+            "National Security Agency (NSA)",
+            "Government Communications Headquarters (GCHQ)",
             "China"
         ]
     },{ 
@@ -317,13 +321,13 @@
         "title": "Decentralized web",
         "keepers": [
             "Blockchain",
-            "P2P"
+            "Peer to Peer (P2P)"
         ]
     },{ 
         "is": "goal",
         "title": "DRM",
         "keepers": [
-            "RIAA",
+            "Recording Industry Association of America (RIAA)",
             "Money"
         ]
     },{ 
