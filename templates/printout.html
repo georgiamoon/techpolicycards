@@ -19,7 +19,7 @@
     font-family: "Verdana", "Geneva", sans-serif;
     font-size: 18pt;
     margin-top: 65px;
-    margin-left: 30px;
+    margin-left: 36px;
     margin-right: 5px;
     font-variant-caps: all-petite-caps;
     font-weight: bold;
@@ -38,6 +38,32 @@
     top:0;
     left:0;
     z-index:-1;
+}
+
+.action .vertical-text {
+    border-top: solid black;
+    /* background-color: green; */
+}
+
+.goal .vertical-text {
+    /* background-color: pink; */
+    background: repeating-linear-gradient( 45deg, #ffffff, #ffffff 10px, #000000 10px, #000000 12px );
+    -webkit-text-stroke: 0.5px white;
+    font-weight: bold;
+}
+
+.keeper .vertical-text {
+    color: white;
+    background-color: black;
+    /* background-color: brown; */
+}
+
+.rule .vertical-text {
+    background: repeating-linear-gradient( 90deg, #ffffff, #ffffff 2px, #000000 2px, #000000 10px );
+    -webkit-text-stroke: 1px black;
+    font-weight: bold;
+    color: white;
+    /* background-color: yellow; */
 }
 
 .card-description {
@@ -65,11 +91,11 @@
     </head>
     <body>
         {% for card in cards %}
-        <div class="card-container">
+        <div class="card-container {{card.is}}">
             <div class="card-title"> {{ card.title }} </div>
             
             {% if card.is == 'action' %}
-                <div class="vertical-text" style="background-color: green;">ACTION</div>
+                <div class="vertical-text">ACTION</div>
                 {% if card.artwork %}
                 <img height=250 width=250 src="{{card.artwork}}"/>
                 {% endif %}
@@ -79,7 +105,7 @@
             {% endif %}
             
             {% if card.is == 'goal' %}
-                <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                <div class="vertical-text"">GOAL</div>
                 {% if card.artwork %}
                 <img height=250 width=250 src="{{card.artwork}}"/>
                 {% endif %}
@@ -93,7 +119,7 @@
             {% endif %}
             
             {% if card.is == 'keeper' %}
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 {% if card.artwork %}
                 <img height=250 width=250 src="{{card.artwork}}"/>
                 {% endif %}
@@ -103,7 +129,7 @@
             {% endif %}
             
             {% if card.is == 'rule' %}
-              <div class="vertical-text" style="background-color: yellow;">RULE</div>
+              <div class="vertical-text">RULE</div>
                 {% if card.artwork %}
                 <img height=250 width=250 src="{{card.artwork}}"/>
                 {% endif %}

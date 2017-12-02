@@ -40,6 +40,32 @@
     z-index:-1;
 }
 
+.action .vertical-text {
+    border-top: solid black;
+    /* background-color: green; */
+}
+
+.goal .vertical-text {
+    /* background-color: pink; */
+    background: repeating-linear-gradient( 45deg, #ffffff, #ffffff 10px, #000000 10px, #000000 12px );
+    -webkit-text-stroke: 0.5px white;
+    font-weight: bold;
+}
+
+.keeper .vertical-text {
+    color: white;
+    background-color: black;
+    /* background-color: brown; */
+}
+
+.rule .vertical-text {
+    background: repeating-linear-gradient( 90deg, #ffffff, #ffffff 2px, #000000 2px, #000000 10px );
+    -webkit-text-stroke: 1px black;
+    font-weight: bold;
+    color: white;
+    /* background-color: yellow; */
+}
+
 .card-description {
     font-family: "Verdana", "Geneva", sans-serif;
     font-size: 10pt;
@@ -65,11 +91,11 @@
     </head>
     <body>
         
-        <div class="card-container">
+        <div class="card-container action">
             <div class="card-title"> Sneakernet </div>
             
             
-                <div class="vertical-text" style="background-color: green;">ACTION</div>
+                <div class="vertical-text">ACTION</div>
                 
                  <div class="card-description">
                  Everyone chooses one card to pass to the left.  If your hand is empty, you just receive a card (don’t have to draw or pass. 
@@ -83,7 +109,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> Hackers </div>
             
             
@@ -91,7 +117,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -101,13 +127,13 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container goal">
             <div class="card-title"> Internet Blackout </div>
             
             
             
             
-                <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                <div class="vertical-text"">GOAL</div>
                 
                 <div class="card-description">
                 <ul>
@@ -127,7 +153,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container rule">
             <div class="card-title"> Merger Consolidation </div>
             
             
@@ -137,7 +163,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: yellow;">RULE</div>
+              <div class="vertical-text">RULE</div>
                 
               <div class="card-description">
                 Only 1 keeper is needed to win. 
@@ -145,7 +171,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container rule">
             <div class="card-title"> Restoring a quorum </div>
             
             
@@ -155,7 +181,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: yellow;">RULE</div>
+              <div class="vertical-text">RULE</div>
                 
               <div class="card-description">
                 Draw 2, Play 2. 
@@ -163,7 +189,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container rule">
             <div class="card-title"> Government requires encrypted back doors </div>
             
             
@@ -173,7 +199,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: yellow;">RULE</div>
+              <div class="vertical-text">RULE</div>
                 
               <div class="card-description">
                 Draw 1, Discard 4. 
@@ -181,7 +207,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container rule">
             <div class="card-title"> Power outage </div>
             
             
@@ -191,7 +217,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: yellow;">RULE</div>
+              <div class="vertical-text">RULE</div>
                 
               <div class="card-description">
                 All technology keepers cannot be used. 
@@ -199,7 +225,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container rule">
             <div class="card-title"> Technical solution to a social problem </div>
             
             
@@ -209,7 +235,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: yellow;">RULE</div>
+              <div class="vertical-text">RULE</div>
                 
               <div class="card-description">
                 Only technology keepers can be used. 
@@ -217,7 +243,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container rule">
             <div class="card-title"> Power restored </div>
             
             
@@ -227,7 +253,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: yellow;">RULE</div>
+              <div class="vertical-text">RULE</div>
                 
               <div class="card-description">
                 Replaces the Power Outage rule if in play. 
@@ -235,7 +261,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container rule">
             <div class="card-title"> Recent terrorist attack </div>
             
             
@@ -245,7 +271,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: yellow;">RULE</div>
+              <div class="vertical-text">RULE</div>
                 
               <div class="card-description">
                 Goals of Privacy, Legislative Win, Policy Change cannot be met while this rule is in play. 
@@ -253,7 +279,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container rule">
             <div class="card-title"> Thwart the Surveillance Agencies </div>
             
             
@@ -263,7 +289,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: yellow;">RULE</div>
+              <div class="vertical-text">RULE</div>
                 
               <div class="card-description">
                 If Full disk encryption is on the table, anyone can use it to win. 
@@ -271,7 +297,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> USA </div>
             
             
@@ -279,7 +305,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -289,7 +315,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> China </div>
             
             
@@ -297,7 +323,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -307,7 +333,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> India </div>
             
             
@@ -315,7 +341,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -325,7 +351,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> European Union </div>
             
             
@@ -333,7 +359,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -343,7 +369,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> UK </div>
             
             
@@ -351,7 +377,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -361,7 +387,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> FCC </div>
             
             
@@ -369,7 +395,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -379,7 +405,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> ICANN </div>
             
             
@@ -387,7 +413,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -397,7 +423,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> IETF </div>
             
             
@@ -405,7 +431,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -415,7 +441,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> Wire tapping </div>
             
             
@@ -423,7 +449,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -433,7 +459,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> Civil Society </div>
             
             
@@ -441,7 +467,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -451,7 +477,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> Advocacy </div>
             
             
@@ -459,7 +485,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -469,7 +495,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> Stingray </div>
             
             
@@ -477,7 +503,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -487,7 +513,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> Bot net </div>
             
             
@@ -495,7 +521,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -505,7 +531,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> United Nations </div>
             
             
@@ -513,7 +539,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -523,7 +549,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> File Comments </div>
             
             
@@ -531,7 +557,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -541,7 +567,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> High powered lawyer </div>
             
             
@@ -549,7 +575,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -559,7 +585,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> RFC (Request for Comments) </div>
             
             
@@ -567,7 +593,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -577,7 +603,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> Legal brief </div>
             
             
@@ -585,7 +611,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -595,7 +621,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> Corporate Lobbyist </div>
             
             
@@ -603,7 +629,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -613,7 +639,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> Money </div>
             
             
@@ -621,7 +647,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -631,7 +657,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> Tech Company </div>
             
             
@@ -639,7 +665,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -649,7 +675,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> Lawsuit </div>
             
             
@@ -657,7 +683,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -667,7 +693,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> NSA </div>
             
             
@@ -675,7 +701,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -685,7 +711,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> FBI </div>
             
             
@@ -693,7 +719,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -703,7 +729,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> CIA </div>
             
             
@@ -711,7 +737,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -721,7 +747,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> GHCQ </div>
             
             
@@ -729,7 +755,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -739,7 +765,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> Blockchain </div>
             
             
@@ -747,7 +773,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -757,7 +783,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> RIAA </div>
             
             
@@ -765,7 +791,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -775,7 +801,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> ISPs </div>
             
             
@@ -783,7 +809,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -793,7 +819,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> Political Activity </div>
             
             
@@ -801,7 +827,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -811,7 +837,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> Progressive Hosting Organization </div>
             
             
@@ -819,7 +845,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -829,7 +855,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> Full Disk Encryption </div>
             
             
@@ -837,7 +863,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -847,7 +873,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> Subpoena </div>
             
             
@@ -855,7 +881,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -865,7 +891,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container keeper">
             <div class="card-title"> Peer to Peer (P2P) </div>
             
             
@@ -873,7 +899,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: brown;">KEEPER</div>
+              <div class="vertical-text">KEEPER</div>
                 
               <div class="card-description">
                  
@@ -883,11 +909,11 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container action">
             <div class="card-title"> Editorial Review </div>
             
             
-                <div class="vertical-text" style="background-color: green;">ACTION</div>
+                <div class="vertical-text">ACTION</div>
                 
                  <div class="card-description">
                  Discard half of any individual player&#39;s hand. You pick who is under editorial review. 
@@ -901,11 +927,11 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container action">
             <div class="card-title"> Zero Day </div>
             
             
-                <div class="vertical-text" style="background-color: green;">ACTION</div>
+                <div class="vertical-text">ACTION</div>
                 
                  <div class="card-description">
                  Take 1 card from up to half the players. 
@@ -919,11 +945,11 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container action">
             <div class="card-title"> Data breach </div>
             
             
-                <div class="vertical-text" style="background-color: green;">ACTION</div>
+                <div class="vertical-text">ACTION</div>
                 
                  <div class="card-description">
                  One player has to show their hand. 
@@ -937,11 +963,11 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container action">
             <div class="card-title"> Ransomware </div>
             
             
-                <div class="vertical-text" style="background-color: green;">ACTION</div>
+                <div class="vertical-text">ACTION</div>
                 
                  <div class="card-description">
                  Take all but 1 of one player&#39;s cards. You pick which player. 
@@ -955,11 +981,11 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container action">
             <div class="card-title"> Mandatory Internet ID (China bans anonymous posting) </div>
             
             
-                <div class="vertical-text" style="background-color: green;">ACTION</div>
+                <div class="vertical-text">ACTION</div>
                 
                  <div class="card-description">
                  All players show keepers in their hands. 
@@ -973,7 +999,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container rule">
             <div class="card-title"> GPDR goes into effect </div>
             
             
@@ -983,7 +1009,7 @@
             
             
             
-              <div class="vertical-text" style="background-color: yellow;">RULE</div>
+              <div class="vertical-text">RULE</div>
                 
               <div class="card-description">
                 The Privacy goal can be met with just 1 keeper. 
@@ -991,11 +1017,11 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container action">
             <div class="card-title"> Zero Rating </div>
             
             
-                <div class="vertical-text" style="background-color: green;">ACTION</div>
+                <div class="vertical-text">ACTION</div>
                 
                  <div class="card-description">
                  Play as many cards as you want on your turn. 
@@ -1009,11 +1035,11 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container action">
             <div class="card-title"> Classified information leaked </div>
             
             
-                <div class="vertical-text" style="background-color: green;">ACTION</div>
+                <div class="vertical-text">ACTION</div>
                 
                  <div class="card-description">
                  Every player holding a surveillance agency has to play their keeper. Keeper limits are not enforced. 
@@ -1027,11 +1053,11 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container action">
             <div class="card-title"> Build an Alliance </div>
             
             
-                <div class="vertical-text" style="background-color: green;">ACTION</div>
+                <div class="vertical-text">ACTION</div>
                 
                  <div class="card-description">
                  Count the number of players in the game (including yourself). Draw enough cards to give 1 card to each player, and then distribute them evenly amongst all the players. You decide who gets what. 
@@ -1045,11 +1071,11 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container action">
             <div class="card-title"> Share the Wealth </div>
             
             
-                <div class="vertical-text" style="background-color: green;">ACTION</div>
+                <div class="vertical-text">ACTION</div>
                 
                  <div class="card-description">
                  Gather up all the keepers on the table. Shuffle them together, then deal them out,giving the first card to yourself. Everyone will probably end up with a different number of Keepers in play than they started with. 
@@ -1063,11 +1089,11 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container action">
             <div class="card-title"> Today’s Special </div>
             
             
-                <div class="vertical-text" style="background-color: green;">ACTION</div>
+                <div class="vertical-text">ACTION</div>
                 
                  <div class="card-description">
                  Set your hand aside and draw 3 cards. If today is your birthday, play all 3 cards. If today is a holiday or special anniversary, play 2 of the cards. If it’s just another day, play only 1 card. Discard the remainder. 
@@ -1081,11 +1107,11 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container action">
             <div class="card-title"> Congress changes hands </div>
             
             
-                <div class="vertical-text" style="background-color: green;">ACTION</div>
+                <div class="vertical-text">ACTION</div>
                 
                  <div class="card-description">
                  Reset to Basic Rules. Discard all new rule cards, and leave only the basic rules in play. Do not discard the current Goal. 
@@ -1099,13 +1125,13 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container goal">
             <div class="card-title"> New TLDs released </div>
             
             
             
             
-                <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                <div class="vertical-text"">GOAL</div>
                 
                 <div class="card-description">
                 <ul>
@@ -1123,13 +1149,13 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container goal">
             <div class="card-title"> Internet Blackout </div>
             
             
             
             
-                <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                <div class="vertical-text"">GOAL</div>
                 
                 <div class="card-description">
                 <ul>
@@ -1149,13 +1175,13 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container goal">
             <div class="card-title"> Reverse an Internet Shutdown </div>
             
             
             
             
-                <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                <div class="vertical-text"">GOAL</div>
                 
                 <div class="card-description">
                 <ul>
@@ -1175,13 +1201,13 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container goal">
             <div class="card-title"> Net neutrality </div>
             
             
             
             
-                <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                <div class="vertical-text"">GOAL</div>
                 
                 <div class="card-description">
                 <ul>
@@ -1201,13 +1227,13 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container goal">
             <div class="card-title"> Win a Scotus Case </div>
             
             
             
             
-                <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                <div class="vertical-text"">GOAL</div>
                 
                 <div class="card-description">
                 <ul>
@@ -1227,13 +1253,13 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container goal">
             <div class="card-title"> New protocol </div>
             
             
             
             
-                <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                <div class="vertical-text"">GOAL</div>
                 
                 <div class="card-description">
                 <ul>
@@ -1253,13 +1279,13 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container goal">
             <div class="card-title"> Policy change </div>
             
             
             
             
-                <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                <div class="vertical-text"">GOAL</div>
                 
                 <div class="card-description">
                 <ul>
@@ -1277,13 +1303,13 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container goal">
             <div class="card-title"> Coalition </div>
             
             
             
             
-                <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                <div class="vertical-text"">GOAL</div>
                 
                 <div class="card-description">
                 <ul>
@@ -1301,13 +1327,13 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container goal">
             <div class="card-title"> Regulatory win </div>
             
             
             
             
-                <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                <div class="vertical-text"">GOAL</div>
                 
                 <div class="card-description">
                 <ul>
@@ -1325,13 +1351,13 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container goal">
             <div class="card-title"> Legislative victory </div>
             
             
             
             
-                <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                <div class="vertical-text"">GOAL</div>
                 
                 <div class="card-description">
                 <ul>
@@ -1349,13 +1375,13 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container goal">
             <div class="card-title"> Privacy </div>
             
             
             
             
-                <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                <div class="vertical-text"">GOAL</div>
                 
                 <div class="card-description">
                 <ul>
@@ -1373,13 +1399,13 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container goal">
             <div class="card-title"> Surveil all the things </div>
             
             
             
             
-                <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                <div class="vertical-text"">GOAL</div>
                 
                 <div class="card-description">
                 <ul>
@@ -1399,13 +1425,13 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container goal">
             <div class="card-title"> Dark Web </div>
             
             
             
             
-                <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                <div class="vertical-text"">GOAL</div>
                 
                 <div class="card-description">
                 <ul>
@@ -1425,13 +1451,13 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container goal">
             <div class="card-title"> Decentralized web </div>
             
             
             
             
-                <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                <div class="vertical-text"">GOAL</div>
                 
                 <div class="card-description">
                 <ul>
@@ -1449,13 +1475,13 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container goal">
             <div class="card-title"> DRM </div>
             
             
             
             
-                <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                <div class="vertical-text"">GOAL</div>
                 
                 <div class="card-description">
                 <ul>
@@ -1473,13 +1499,13 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container goal">
             <div class="card-title"> Universal Digital Rights </div>
             
             
             
             
-                <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                <div class="vertical-text"">GOAL</div>
                 
                 <div class="card-description">
                 <ul>
@@ -1499,13 +1525,13 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container goal">
             <div class="card-title"> Vulnerabilities Equities Process (VEP) </div>
             
             
             
             
-                <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                <div class="vertical-text"">GOAL</div>
                 
                 <div class="card-description">
                 <ul>
@@ -1523,13 +1549,13 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container goal">
             <div class="card-title"> Government Hacking </div>
             
             
             
             
-                <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                <div class="vertical-text"">GOAL</div>
                 
                 <div class="card-description">
                 <ul>
@@ -1547,13 +1573,13 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container goal">
             <div class="card-title"> Zero Knowledge Server </div>
             
             
             
             
-                <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                <div class="vertical-text"">GOAL</div>
                 
                 <div class="card-description">
                 <ul>
@@ -1571,13 +1597,13 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container goal">
             <div class="card-title"> Thwart the FBI  </div>
             
             
             
             
-                <div class="vertical-text" style="background-color: pink;">GOAL</div>
+                <div class="vertical-text"">GOAL</div>
                 
                 <div class="card-description">
                 <ul>
@@ -1597,7 +1623,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container blank">
             <div class="card-title">  </div>
             
             
@@ -1609,7 +1635,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container blank">
             <div class="card-title">  </div>
             
             
@@ -1621,7 +1647,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container blank">
             <div class="card-title">  </div>
             
             
@@ -1633,7 +1659,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container blank">
             <div class="card-title">  </div>
             
             
@@ -1645,7 +1671,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container blank">
             <div class="card-title">  </div>
             
             
@@ -1657,7 +1683,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container blank">
             <div class="card-title">  </div>
             
             
@@ -1669,7 +1695,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container blank">
             <div class="card-title">  </div>
             
             
@@ -1681,7 +1707,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container blank">
             <div class="card-title">  </div>
             
             
@@ -1693,7 +1719,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container blank">
             <div class="card-title">  </div>
             
             
@@ -1705,7 +1731,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container blank">
             <div class="card-title">  </div>
             
             
@@ -1717,7 +1743,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container blank">
             <div class="card-title">  </div>
             
             
@@ -1729,7 +1755,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container blank">
             <div class="card-title">  </div>
             
             
@@ -1741,7 +1767,7 @@
             
         </div>
         
-        <div class="card-container">
+        <div class="card-container blank">
             <div class="card-title">  </div>
             
             
