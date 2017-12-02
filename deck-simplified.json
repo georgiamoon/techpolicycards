@@ -32,8 +32,24 @@
         "description": "If you have the fewest Keepers on the table, draw an extra card. In the case of a tie, both players get the bonus."
     },{
         "is": "rule",
-        "title": "Restoring a quorum",
+        "title": "Draw 2, Play 2",
         "description": "Draw 2, Play 2."
+    },{
+        "is": "rule",
+        "title": "Draw 3, Play 3",
+        "description": "Draw 3, Play 3."
+    },{
+        "is": "rule",
+        "title": "Draw 4, Play 4",
+        "description": "Draw 4, Play 4."
+    },{
+        "is": "rule",
+        "title": "Moar Goals.",
+        "description": "There can be two goals in play."
+    },{
+        "is": "rule",
+        "title": "All the Goals.",
+        "description": "There can be more than one goal in play."
     },{
         "is": "rule",
         "title": "Government requires encrypted back doors",
@@ -58,6 +74,14 @@
         "is": "rule",
         "title": "Thwart the Surveillance Agencies",
         "description": "If Full disk encryption is on the table, anyone can use it to win."
+    },{
+        "is": "rule",
+        "title": "Diffie-Helman Key Exchange",
+        "description": "Pick another player and trade hands."
+    },{
+        "is": "rule",
+        "title": "Reverse engineering",
+        "description": "Hold your cards facing away from you. Everyone else can see your cards but you must play from memory."
     },{ 
         "is": "keeper",
         "title": "Country"
@@ -79,9 +103,9 @@
         "is": "keeper",
         "title": "Advocacy"
     },{ 
-        "is": "keeper",
-        "title": "Stingray",
-        "category": "Technology"
+        "is": "action",
+        "title": "Stingray deemed illegal",
+        "description": "Draw 4 cards, and keep 2. Discard the other 2."
     },{ 
         "is": "keeper",
         "title": "Bot net",
@@ -147,7 +171,7 @@
         "description": "Discard half of any individual player's hand. You pick who is under editorial review."
     },{ 
         "is": "action",
-        "title": "Zero Day",
+        "title": "Zero Day vulnerability exists",
         "description": "Take 1 card from up to half the players."
     },{ 
         "is": "action",
@@ -189,6 +213,10 @@
         "is": "action",
         "title": "Congress changes hands",
         "description": "Reset to Basic Rules. Discard all new rule cards, and leave only the basic rules in play. Do not discard the current Goal."
+    },{ 
+        "is": "action",
+        "title": "Release open data API",
+        "description": "Pick one card for each player other than yourself. You choose who gets what card."
     },{ 
         "is": "goal",
         "title": "New Top Level Domains (TLDs) released",
@@ -277,6 +305,12 @@
         "keepers": [
             "Blockchain",
             "Hackers"
+        ]
+    },{ 
+        "is": "goal",
+        "title": "All the Keepers.",
+        "keepers": [
+            "Any 6 keepers."
         ]
     },{ 
         "is": "goal",
