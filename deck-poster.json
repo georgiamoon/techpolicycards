@@ -1,0 +1,54 @@
+{ "cards": [
+    { 
+        "is": "letter",
+        "title": "T"
+    },{ 
+        "is": "letter",
+        "title": "E"
+    },{ 
+        "is": "letter",
+        "title": "C"
+    },{ 
+        "is": "letter",
+        "title": "H"
+    },{ 
+        "is": "letter",
+        "title": "P"
+    },{ 
+        "is": "letter",
+        "title": "O"
+    },{ 
+        "is": "letter",
+        "title": "L"
+    },{ 
+        "is": "letter",
+        "title": "I"
+    },{ 
+        "is": "letter",
+        "title": "C"
+    },{ 
+        "is": "letter",
+        "title": "Y"
+    },{ 
+        "is": "letter",
+        "title": "T"
+    },{ 
+        "is": "letter",
+        "title": "H"
+    },{ 
+        "is": "letter",
+        "title": "E"
+    },{ 
+        "is": "letter",
+        "title": "G"
+    },{ 
+        "is": "letter",
+        "title": "A"
+    },{ 
+        "is": "letter",
+        "title": "M"
+    },{ 
+        "is": "letter",
+        "title": "E"
+    }
+]}
