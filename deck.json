@@ -22,6 +22,14 @@
         "is": "rule",
         "title": "Merger Consolidation",
         "description": "Only 1 keeper is needed to win."
+    },{ 
+        "is": "rule",
+        "title": "Rich Bonus",
+        "description": "If one of your Keepers is a rich country, add 1 to all existing rules. (e.g. Draw 1 -> Draw 2)"
+    },{ 
+        "is": "rule",
+        "title": "Poor Bonus",
+        "description": "If you have the fewest Keepers on the table, draw an extra card. In the case of a tie, both players get the bonus."
     },{
         "is": "rule",
         "title": "Restoring a quorum",
@@ -190,6 +198,10 @@
         "is": "action",
         "title": "Mandatory Internet ID (China bans anonymous posting)",
         "description": "All players show keepers in their hands."
+    },{ 
+        "is": "action",
+        "title": "Tech Hype!",
+        "description": "Everyone gets to draw a card."
     },{ 
         "is": "rule",
         "title": "General Data Protection Regulation (GDPR) goes into effect",
