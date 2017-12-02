@@ -7,7 +7,7 @@ env = Environment(
         loader = FileSystemLoader("templates/"),
         autoescape = select_autoescape(['html', 'xml']))
 
-deck = json.load(open('deck.json'))
+deck = json.load(open('deck-simplified.json'))
 template = env.get_template('printout.html')
 with open("printout.html", "wb") as result:
     result.write(template.render(deck).encode('utf-8'))

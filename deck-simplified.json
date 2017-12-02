@@ -15,7 +15,7 @@
         "title": "Internet Blackout",
         "keepers": [
             "Political Activity",
-            "Any Country",
+            "Country",
             "Internet Service Providers (ISPs)"
         ]
     },{
@@ -60,35 +60,14 @@
         "description": "If Full disk encryption is on the table, anyone can use it to win."
     },{ 
         "is": "keeper",
-        "title": "USA",
-        "category": "Country"
+        "title": "Country"
     },{ 
         "is": "keeper",
-        "title": "China",
-        "category": "Country"
-    },{ 
-        "is": "keeper",
-        "title": "India",
-        "category": "Country"
-    },{ 
-        "is": "keeper",
-        "title": "European Union",
-        "category": "Country"
-    },{ 
-        "is": "keeper",
-        "title": "United Kingdom",
-        "category": "Country"
-    },{ 
-        "is": "keeper",
-        "title": "Federal Communications Commission (FCC)",
+        "title": "Communications Agency",
         "category": "Agency"
     },{ 
         "is": "keeper",
-        "title": "Internet Corporation for Assigned Names and Numbers (ICANN)",
-        "category": "Agency"
-    },{ 
-        "is": "keeper",
-        "title": "Internet Engineering Task Force (IETF)",
+        "title": "Internet Agency",
         "category": "Agency"
     },{ 
         "is": "keeper",
@@ -109,11 +88,7 @@
         "category": "Technology"
     },{ 
         "is": "keeper",
-        "title": "United Nations",
-        "category": "Agency"
-    },{ 
-        "is": "keeper",
-        "title": "File Comments"
+        "title": "International Organization"
     },{ 
         "is": "keeper",
         "title": "High powered lawyer"
@@ -128,6 +103,10 @@
         "title": "Corporate Lobbyist"
     },{ 
         "is": "keeper",
+        "title": "Media Agency",
+        "category": "Agency"
+    },{ 
+        "is": "keeper",
         "title": "Money"
     },{ 
         "is": "keeper",
@@ -137,28 +116,12 @@
         "title": "Lawsuit"
     },{ 
         "is": "keeper",
-        "title": "National Security Agency (NSA)",
-        "category": "Surveillance-Agency"
-    },{ 
-        "is": "keeper",
-        "title": "Federal Bureau of Investigations (FBI)",
-        "category": "Surveillance-Agency"
-    },{ 
-        "is": "keeper",
-        "title": "Central Intelligence Agency (CIA)",
-        "category": "Surveillance-Agency"
-    },{ 
-        "is": "keeper",
-        "title": "Government Communications Headquarters (GCHQ)",
-        "category": "Surveillance-Agency"
+        "title": "Surveillance Agency",
+        "category": "Agency"
     },{ 
         "is": "keeper",
         "title": "Blockchain",
-        "category": "technology"
-    },{ 
-        "is": "keeper",
-        "title": "Recording Industry Association of America (RIAA)",
-        "category": "Agency"
+        "category": "Technology"
     },{ 
         "is": "keeper",
         "title": "Internet Service Providers (ISPs)"
@@ -196,15 +159,11 @@
         "description": "Take all but 1 of one player's cards. You pick which player."
     },{ 
         "is": "action",
-        "title": "Mandatory Internet ID (China bans anonymous posting)",
-        "description": "All players show keepers in their hands."
-    },{ 
-        "is": "action",
         "title": "Tech Hype!",
         "description": "Everyone gets to draw a card."
     },{ 
         "is": "rule",
-        "title": "General Data Protection Regulation (GDPR) goes into effect",
+        "title": "Privacy for All!",
         "description": "The Privacy goal can be met with just 1 keeper."
     },{ 
         "is": "action",
@@ -213,14 +172,14 @@
     },{ 
         "is": "action",
         "title": "Classified information leaked",
-        "description": "Every player holding a surveillance agency has to play their keeper. Keeper limits are not enforced."
+        "description": "The player holding Surveillance Agency has to play their keeper. Keeper limits are not enforced."
     },{ 
         "is": "action",
         "title": "Build an Alliance",
         "description": "Count the number of players in the game (including yourself). Draw enough cards to give 1 card to each player, and then distribute them evenly amongst all the players. You decide who gets what."
     },{ 
         "is": "action",
-        "title": "Share the Wealth",
+        "title": "Redistribute the Wealth",
         "description": "Gather up all the keepers on the table. Shuffle them together, then deal them out,giving the first card to yourself. Everyone will probably end up with a different number of Keepers in play than they started with."
     },{ 
         "is": "action",
@@ -232,17 +191,17 @@
         "description": "Reset to Basic Rules. Discard all new rule cards, and leave only the basic rules in play. Do not discard the current Goal."
     },{ 
         "is": "goal",
-        "title": "New TLDs released",
+        "title": "New Top Level Domains (TLDs) released",
         "keepers": [
-            "ICANN",
-            "Any Country"
+            "Internet Agency",
+            "Country"
         ]
     },{ 
         "is": "goal",
         "title": "Internet Blackout",
         "keepers": [
             "Political Activity",
-            "Any Country",
+            "Country",
             "Internet Service Providers (ISPs)"
         ]
     },{ 
@@ -251,31 +210,29 @@
         "keepers": [
             "Civil Society",
             "Advocacy",
-            "United Nations (UN)"
+            "International Organization"
         ]
     },{ 
         "is": "goal",
         "title": "Net neutrality",
         "keepers": [
-            "Federal Communications Commission (FCC)",
-            "EU",
-            "Any non-US, non-EU country"
+            "Communications Agency",
+            "Country",
+            "Civil Society"
         ]
     },{ 
         "is": "goal",
-        "title": "Win a Scotus Case",
+        "title": "Win a Court Case",
         "keepers": [
             "High Powered Lawyer",
-            "Legal Brief",
-            "USA"
+            "Legal Brief"
         ]
     },{ 
         "is": "goal",
         "title": "New protocol",
         "keepers": [
-            "Internet Engineering Task Force (IETF)",
-            "Request for Comments (RFC)",
-            "File Comments"
+            "Internet Agency",
+            "Request for Comments (RFC)"
         ]
     },{ 
         "is": "goal",
@@ -293,13 +250,6 @@
         ]
     },{ 
         "is": "goal",
-        "title": "Regulatory win",
-        "keepers": [
-            "File Comments",
-            "High powered lawyer"
-        ]
-    },{ 
-        "is": "goal",
         "title": "Legislative victory",
         "keepers": [
             "Corporate Lobbyist",
@@ -309,24 +259,24 @@
         "is": "goal",
         "title": "Privacy",
         "keepers": [
-            "European Union",
-            "Lawsuit"
+            "Country",
+            "Lawsuit",
+            "Internet Agency"
         ]
     },{ 
         "is": "goal",
         "title": "Surveil all the things",
         "keepers": [
-            "National Security Agency (NSA)",
-            "Government Communications Headquarters (GCHQ)",
-            "China"
+            "Surveillance Agency",
+            "Terrorist Attack",
+            "Country"
         ]
     },{ 
         "is": "goal",
         "title": "Dark Web",
         "keepers": [
             "Blockchain",
-            "Hackers",
-            "China"
+            "Hackers"
         ]
     },{ 
         "is": "goal",
@@ -339,16 +289,17 @@
         "is": "goal",
         "title": "Digital Rights Management (DRM)",
         "keepers": [
-            "Recording Industry Association of America (RIAA)",
-            "Money"
+            "Media Agency",
+            "Money",
+            "Corporate Lobbyist"
         ]
     },{ 
         "is": "goal",
         "title": "Universal Digital Rights",
         "keepers": [
             "Civil Society",
-            "2 Countries",
-            "No surveillance agencies on the table"
+            "Country",
+            "International Organization"
         ]
     },{ 
         "is": "goal",
@@ -361,7 +312,7 @@
         "is": "goal",
         "title": "Government Hacking",
         "keepers": [
-            "Any surveillance agency",
+            "Surveillance Agency",
             "Hackers"
         ]
     },{ 
@@ -373,7 +324,7 @@
         ]
     },{ 
         "is": "goal",
-        "title": "Thwart the FBI ",
+        "title": "Thwart Law Enforcement ",
         "keepers": [
             "Full Disk Encryption",
             "Progressive Hosting Organization",
