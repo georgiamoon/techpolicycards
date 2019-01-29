@@ -55,7 +55,7 @@ See the current cards in the [printout.html](printout.html).
 - Helyx Chase
 - Maya Wagoner ([@mayawagon](http://github.com/mayawagon))
 - Kim Garcia
-- Stephen Soltesz ([@stephensoltesz](http://github.com/stephensoltesz))
+- Stephen Soltesz ([@stephen-soltesz](http://github.com/stephen-soltesz))
 - Simone Basso ([@bassosimone](https://github.com/bassosimone))
 - Roberto D'Auria ([@evfirerob](https://github.com/evfirerob))
 - kinkade ([@kinkade](https://github.com/kinkade))
