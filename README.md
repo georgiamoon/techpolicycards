@@ -48,6 +48,7 @@ See the current cards in the [printout.html](printout.html).
   - Chris Ritzo [@critzo](http://github.com/critzo)
   - Nat [@natmey](http://github.com/natmey)
   - Sharon, Tiffany, Jo, Alison, ...more...
+- [MozFest]([http://mozillafestival.org])
 - David Winslow ([@dwins](http://github.com/dwins))
 - Meag Doherty ([@meagdoh](https://github.com/meagdoh)
 - Jack Aponte ([@jackaponte](http://github.com/jackaponte))
@@ -55,6 +56,7 @@ See the current cards in the [printout.html](printout.html).
 - Helyx Chase
 - Maya Wagoner ([@mayawagon](http://github.com/mayawagon))
 - Kim Garcia
+- thaneyriordan ([@thaneyriordan](https://github.com/thaneyriordan))
 - Stephen Soltesz ([@stephen-soltesz](http://github.com/stephen-soltesz))
 - Simone Basso ([@bassosimone](https://github.com/bassosimone))
 - Roberto D'Auria ([@evfirerob](https://github.com/evfirerob))
