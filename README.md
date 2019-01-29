@@ -58,5 +58,5 @@ See the current cards in the [printout.html](printout.html).
 - Stephen Soltesz ([@stephen-soltesz](http://github.com/stephen-soltesz))
 - Simone Basso ([@bassosimone](https://github.com/bassosimone))
 - Roberto D'Auria ([@evfirerob](https://github.com/evfirerob))
-- kinkade ([@kinkade](https://github.com/kinkade))
+- kinkade ([@kinkade](https://github.com/nkinkade))
 
