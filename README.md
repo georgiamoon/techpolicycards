@@ -1,6 +1,10 @@
 # Tech Policy Card Game
 
-A card game, inspired by Fluxx, i.e. a game where the rules and win conditions change as you play the cards in your hand (just like life!). This game is developed around the concepts of internet health and on the issues and policies that we see in tech policy. Check out the current cards in the [deck](https://georgiamoon.github.io/techpolicycardgame/printout.html), which you can print and cut out at home.
+A card game, inspired by Fluxx, i.e. a game where the rules and win conditions change as you play the cards in your hand (just like life!). This game is developed around the concepts of internet health and on the issues and policies that we see in tech policy. 
+
+Check out the current cards in the [deck](https://georgiamoon.github.io/techpolicycardgame/printout.html), which you can print and cut out at home.
+
+Contribute to the [code](https://github.com/georgiamoon/techpolicycardgame).
 
 ## Basic Play
 
