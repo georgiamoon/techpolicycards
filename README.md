@@ -43,10 +43,20 @@ See the current cards in the [printout.html](printout.html).
 
 ## Contributors:
 
-- OTI (Ross [@rschulman](http://github.com/rschulman), Sharon, Tiffany, Jo, Alison, Chris [@critzo](http://github.com/critzo), Nat [@natmey](http://github.com/natmey) ...more...)
+- OTI ([@opentechinstitute](http://github.com/opentechinstitute))
+  - Ross Schulman [@rschulman](http://github.com/rschulman) 
+  - Chris Ritzo [@critzo](http://github.com/critzo)
+  - Nat [@natmey](http://github.com/natmey)
+  - Sharon, Tiffany, Jo, Alison, ...more...
+- David Winslow ([@dwins](http://github.com/dwins))
+- Meag Doherty ([@meagdoh](https://github.com/meagdoh)
 - Jack Aponte ([@jackaponte](http://github.com/jackaponte))
 - JaimeV
 - Helyx Chase
 - Maya Wagoner ([@mayawagon](http://github.com/mayawagon))
 - Kim Garcia
-- David Winslow ([@dwins](http://github.com/dwins))
+- Stephen Soltesz ([@stephensoltesz](http://github.com/stephensoltesz)
+- Simone Basso ([@bassosimone](https://github.com/bassosimone)
+- Roberto D'Auria ([@evfirerob](https://github.com/evfirerob)
+- kinkade ([@kinkade](https://github.com/kinkade)
+
