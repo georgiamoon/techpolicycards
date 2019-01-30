@@ -50,7 +50,7 @@ Current cards in the [printout](https://georgiamoon.github.io/techpolicycardgame
   - Sharon, Tiffany, Jo, Alison, ...more...
 - [MozFest]([http://mozillafestival.org])
 - David Winslow ([@dwins](http://github.com/dwins))
-- Meag Doherty ([@meagdoh](https://github.com/meagdoh)
+- Meag Doherty ([@meagdoh](https://github.com/meagdoh))
 - Jack Aponte ([@jackaponte](http://github.com/jackaponte))
 - JaimeV
 - Helyx Chase
