@@ -13,7 +13,7 @@ This game has been developed through extremely collaborative practices, and to b
 
 I've never designed a game before, so it's been super helpful to work with folks about how to approach it, and brainstorm about different cards, rules, etc. We've learned a lot about how to make the game more gnereally applicable and come up with ideas for how to scale and localize so that people connect with the game. There's still lots to do, so here are some ways to get involved:
 
-1) Check the issues and pick one to work on! If you have questions, please ask! We need help with everything from data models to designs!
-2) [Print out and test the game with friends (or enemies!)](https://georgiamoon.github.io/techpolicycardgame/printout.html). File issues for things that were confusing, unclear, or even just typos that you find in the deck! (I make a lot of typos!)
-3) Know anything about printing a deck of cards? [Help figure out the layout and design specs](#9) for that so we can actually do a fancy card run!
-4) [Help develop decks that are regionally specific!](#10)
+- Check the issues and pick one to work on! If you have questions, please ask! We need help with everything from data models to designs!
+- [Print out and test the game with friends (or enemies!)](https://georgiamoon.github.io/techpolicycardgame/printout.html). File issues for things that were confusing, unclear, or even just typos that you find in the deck! (I make a lot of typos!)
+- Know anything about printing a deck of cards? [Help figure out the layout and design specs](#9) for that so we can actually do a fancy card run!
+- [Help develop decks that are regionally specific!](#10)
