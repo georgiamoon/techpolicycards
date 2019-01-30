@@ -44,9 +44,9 @@ Current cards in the [printout](https://georgiamoon.github.io/techpolicycardgame
 ## Contributors:
 
 - OTI ([@opentechinstitute](http://github.com/opentechinstitute))
-  - Ross Schulman [@rschulman](http://github.com/rschulman) 
-  - Chris Ritzo [@critzo](http://github.com/critzo)
-  - Nat [@natmey](http://github.com/natmey)
+  - Ross Schulman ([@rschulman](http://github.com/rschulman))
+  - Chris Ritzo ([@critzo](http://github.com/critzo))
+  - Nat ([@natmey](http://github.com/natmey))
   - Sharon, Tiffany, Jo, Alison, ...more...
 - [MozFest]([http://mozillafestival.org])
 - David Winslow ([@dwins](http://github.com/dwins))
