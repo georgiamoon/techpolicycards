@@ -4,7 +4,7 @@ A card game, inspired by Fluxx, i.e. a game where the rules and win conditions c
 
 Check out the current cards in the [deck](https://georgiamoon.github.io/techpolicycardgame/printout.html), which you can print and cut out at home.
 
-Check out the [repo on Github](https://github.com/georgiamoon/techpolicycardgame). Contribute to the [game](/CONTRIBUTING).
+Check out the [repo on Github](https://github.com/georgiamoon/techpolicycardgame). Contribute to the [game](/techpolicycardgame/CONTRIBUTING).
 
 ## Basic Play
 
