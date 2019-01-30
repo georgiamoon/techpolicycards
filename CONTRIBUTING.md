@@ -1,4 +1,4 @@
-# Contributing to Tech Polciy Card Game
+# Contributing to Tech Policy Card Game
 
 This game has been developed through extremely collaborative practices, and to be honest I ([@georgiamoon](https://github.com/georgiamoon)) haven't even done that process justice, e.g. blog posts/documentation about the workshops and playtesting that we've done! Check some of it out on twitter:
 - (https://twitter.com/corizarek/status/924604625008971777)
