@@ -17,3 +17,4 @@ I've never designed a game before, so it's been super helpful to work with folks
 - [Print out and test the game with friends (or enemies!)](https://georgiamoon.github.io/techpolicycardgame/printout.html). File issues for things that were confusing, unclear, or even just typos that you find in the deck! (I make a lot of typos!)
 - Know anything about printing a deck of cards? [Help figure out the layout and design specs](#9) for that so we can actually do a fancy card run!
 - [Help develop decks that are regionally specific!](#10)
+- Contribute other ideas you have. If you found this, you probably have some ideas of your own — and I'd love to hear them!
