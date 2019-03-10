@@ -61,3 +61,5 @@ Current cards in the [printout](https://georgiamoon.github.io/techpolicycardgame
 - Simone Basso ([@bassosimone](https://github.com/bassosimone))
 - Roberto D'Auria ([@evfirerob](https://github.com/evfirerob))
 - kinkade ([@kinkade](https://github.com/nkinkade))
+- oktacon 4.0 attendees
+- [@elioqoshi](https://github.com/elioqoshi) & [@uracreative)(https://github.com/uracreative)
