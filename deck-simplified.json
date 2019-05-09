@@ -107,9 +107,9 @@
         "title": "Stingray deemed illegal",
         "description": "Draw 4 cards, and keep 2. Discard the other 2."
     },{ 
-        "is": "keeper",
-        "title": "Bot net",
-        "category": "Technology"
+        "is": "rule",
+        "title": "Botnet",
+        "description": "While in play, anyone can use anyone elses keepers in addition to their own."
     },{ 
         "is": "keeper",
         "title": "International Organization"
@@ -192,7 +192,7 @@
     },{ 
         "is": "action",
         "title": "Zero Rating",
-        "description": "Play as many cards as you want on your turn."
+        "description": "Choose a type of card, play as many of that type of card as you want on your turn."
     },{ 
         "is": "action",
         "title": "Classified information leaked",

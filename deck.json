@@ -15,7 +15,7 @@
         "title": "Internet Blackout",
         "keepers": [
             "Political Activity",
-            "Any Country",
+            "Country",
             "Internet Service Providers (ISPs)"
         ]
     },{
@@ -209,7 +209,7 @@
     },{ 
         "is": "action",
         "title": "Zero Rating",
-        "description": "Play as many cards as you want on your turn."
+        "description": "Choose a type of card, and then play as many of those cards as you want on your turn."
     },{ 
         "is": "action",
         "title": "Classified information leaked",
@@ -235,14 +235,14 @@
         "title": "New TLDs released",
         "keepers": [
             "ICANN",
-            "Any Country"
+            "Country"
         ]
     },{ 
         "is": "goal",
         "title": "Internet Blackout",
         "keepers": [
             "Political Activity",
-            "Any Country",
+            "Country",
             "Internet Service Providers (ISPs)"
         ]
     },{ 
