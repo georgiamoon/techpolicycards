@@ -35,8 +35,8 @@ Check out the [repo on Github](https://github.com/georgiamoon/techpolicycardgame
 
 ## Creating & Editing Cards 
 
-1) Edit `deck.json` to add cards.
-2) Run `render.py`.
+1) Edit `deck.json` or `deck-simplified.json` (current default) to add cards.
+2) Run `render.py`. (change deck reference here if you need to modify.
 3) Print the `printout.html`.
 
 Current cards in the [printout](https://georgiamoon.github.io/techpolicycardgame/printout.html).
@@ -62,4 +62,4 @@ Current cards in the [printout](https://georgiamoon.github.io/techpolicycardgame
 - Roberto D'Auria ([@evfirerob](https://github.com/evfirerob))
 - kinkade ([@kinkade](https://github.com/nkinkade))
 - oktacon 4.0 attendees
-- [@elioqoshi](https://github.com/elioqoshi) & [@uracreative)(https://github.com/uracreative)
+- [@elioqoshi](https://github.com/elioqoshi) & [@uracreative](https://github.com/uracreative)
