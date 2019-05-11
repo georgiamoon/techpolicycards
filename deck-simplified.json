@@ -107,7 +107,7 @@
         "title": "Stingray deemed illegal",
         "description": "Draw 4 cards, and keep 2. Discard the other 2."
     },{ 
-        "is": "rule",
+        "is": "action",
         "title": "Botnet",
         "description": "While in play, anyone can use anyone elses keepers in addition to their own."
     },{ 
