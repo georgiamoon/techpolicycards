@@ -2,9 +2,9 @@
 
 A card game, inspired by Fluxx, i.e. a game where the rules and win conditions change as you play the cards in your hand (just like life!). This game is developed around the concepts of internet health and on the issues and policies that we see in tech policy. 
 
-Check out the current cards in the [deck](https://georgiamoon.github.io/techpolicycardgame/printout.html), which you can print and cut out at home.
+Check out the current cards in the [deck](https://georgiamoon.github.io/techpolicycards/printout.html), which you can print and cut out at home.
 
-Check out the [repo on Github](https://github.com/georgiamoon/techpolicycardgame). Contribute to the [game](https://georgiamoon.github.io/techpolicycardgame/CONTRIBUTING).
+Check out the [repo on Github](https://github.com/georgiamoon/techpolicycards). Contribute to the [game](https://georgiamoon.github.io/techpolicycards/CONTRIBUTING).
 
 ## Basic Play
 
@@ -39,7 +39,7 @@ Check out the [repo on Github](https://github.com/georgiamoon/techpolicycardgame
 2) Run `render.py`. (change deck reference here if you need to modify.
 3) Print the `printout.html`.
 
-Current cards in the [printout](https://georgiamoon.github.io/techpolicycardgame/printout.html).
+Current cards in the [printout](https://georgiamoon.github.io/techpolicycards/printout.html).
 
 ## Contributors:
 
