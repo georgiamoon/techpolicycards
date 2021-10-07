@@ -1,0 +1,117 @@
+[
+  {
+    "id": "hand",
+    "type": "hand",
+    "x": 50,
+    "y": 820,
+    "z": 1,
+    "dragging": null,
+    "enabled": true
+  },
+  {
+    "id": "2f3c73ec-fe27-48c0-9c86-a8895cdd5b5c",
+    "x": 609.82,
+    "y": 285.89,
+    "z": 54,
+    "type": "cardPile",
+    "hasShuffleButton": true,
+    "dragging": null,
+    "label": "Draw"
+  },
+  {
+    "id": "5df69986-4e31-4003-bf99-91b2aa1005ba",
+    "x": 622.82,
+    "y": 329.89,
+    "z": 50,
+    "type": "cardDeck",
+    "parent": "2f3c73ec-fe27-48c0-9c86-a8895cdd5b5c",
+    "cardTypes": {
+      "type-9f7f83c6-6e1c-43c6-ad0e-3d24aca8aeef": {
+        "label": "Foo",
+        "text1": "Foo Title",
+        "title": "Foo Title",
+        "description": "Foo has a lot of flavor text. I really hope it wraps!"
+      }
+    },
+    "faceTemplate": {
+      "includeBorder": true,
+      "includeRadius": true,
+      "objects": [
+        {
+          "type": "text",
+          "x": 8.957654723127035,
+          "y": 16.254071661237777,
+          "w": 89.70684039087949,
+          "fontSize": "20",
+          "valueType": "dynamic",
+          "value": "title",
+          "textAlign": "left",
+          "textFont": null
+        },
+        {
+          "type": "text",
+          "x": 7.915309446254071,
+          "y": 67.85016286644952,
+          "w": 90.22801302931597,
+          "fontSize": 16,
+          "valueType": "dynamic",
+          "value": "description",
+          "textAlign": "center",
+          "textFont": null
+        },
+        {
+          "type": "text",
+          "x": 21.986970684039093,
+          "y": 0.6188925081433199,
+          "w": 60,
+          "fontSize": "12",
+          "valueType": "dynamic",
+          "value": "kind",
+          "textAlign": "center",
+          "textFont": null
+        }
+      ]
+    },
+    "backTemplate": {
+      "includeBorder": false,
+      "includeRadius": true,
+      "objects": [
+        {
+          "type": "image",
+          "x": 0,
+          "y": 0,
+          "w": 103,
+          "h": 160,
+          "color": "#a23b2a",
+          "valueType": "static",
+          "value": "/img/cardback-red.svg"
+        }
+      ]
+    },
+    "dragging": null,
+    "owner": null
+  },
+  {
+    "id": "0bd702f5-811f-423e-a04e-f6ded2aa413b",
+    "type": "card",
+    "cardType": "type-9f7f83c6-6e1c-43c6-ad0e-3d24aca8aeef",
+    "deck": "5df69986-4e31-4003-bf99-91b2aa1005ba",
+    "parent": "2f3c73ec-fe27-48c0-9c86-a8895cdd5b5c",
+    "x": 613.82,
+    "y": 289.89,
+    "z": 49,
+    "dragging": null,
+    "faceup": false,
+    "owner": null
+  },
+  {
+    "id": "16a4eea2-e5d0-4d1e-9922-3d95177cd15f",
+    "x": 753.37,
+    "y": 287.12,
+    "z": 55,
+    "type": "cardPile",
+    "dragging": null,
+    "allowPlayerEditLabel": false,
+    "label": "Discard"
+  }
+]
