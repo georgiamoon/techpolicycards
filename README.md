@@ -41,6 +41,15 @@ Check out the [repo on Github](https://github.com/georgiamoon/techpolicycards). 
 
 Current cards in the [printout](https://georgiamoon.github.io/techpolicycards/printout.html).
 
+## Playing Online
+
+Creates a save file that can be imported to the website [playingcards.io](https://playingcards.io).
+
+1) Run `render-pcio.py`.
+2) The script outputs `widgets.json`.
+3) Create a `zip` of `widgets.json` and upload to [playingcards.io](https://playingcards.io).
+
+
 ## Contributors:
 
 - OTI ([@opentechinstitute](http://github.com/opentechinstitute))
