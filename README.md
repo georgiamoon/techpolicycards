@@ -1,8 +1,8 @@
 # Tech Policy Cards
 
-A card game, inspired by Fluxx, i.e. a game where the rules and win conditions change as you play the cards in your hand (just like life!). This game is developed around the concepts of internet health and on the issues and policies that we see in tech policy. 
+A card game, inspired by [Fluxx](https://www.looneylabs.com/games/fluxx), i.e. a game where the rules and win conditions change as you play the cards in your hand (just like life!). This game is developed around the concepts of internet health and on the issues and policies that we see in tech policy. 
 
-Check out the current cards in the [deck](https://georgiamoon.github.io/techpolicycards/printout.html), which you can print and cut out at home.
+Check out the current cards in the [deck](https://techpolicy.cards/printout.html), which you can print and cut out at home.
 
 Check out the [repo on Github](https://github.com/georgiamoon/techpolicycards). Contribute to the [game](https://georgiamoon.github.io/techpolicycards/CONTRIBUTING).
 
@@ -35,11 +35,11 @@ Check out the [repo on Github](https://github.com/georgiamoon/techpolicycards). 
 
 ## Creating & Editing Cards 
 
-1) Edit `deck.json` or `deck-simplified.json` (current default) to add cards.
-2) Run `render.py`. (change deck reference here if you need to modify.
+1) Edit `deck.json` to add cards.
+2) Run `render.py`.
 3) Print the `printout.html`.
 
-Current cards in the [printout](https://georgiamoon.github.io/techpolicycards/printout.html).
+Current cards in the [printout](https://techpolicy.cards/printout.html).
 
 ## Playing Online
 
@@ -52,23 +52,26 @@ Creates a save file that can be imported to the website [playingcards.io](https:
 
 ## Contributors:
 
+- David Winslow ([@dwins](http://github.com/dwins))
 - OTI ([@opentechinstitute](http://github.com/opentechinstitute))
   - Ross Schulman ([@rschulman](http://github.com/rschulman))
   - Chris Ritzo ([@critzo](http://github.com/critzo))
   - Nat ([@natmey](http://github.com/natmey))
   - Sharon, Tiffany, Jo, Alison, ...more...
-- [MozFest]([http://mozillafestival.org])
-- David Winslow ([@dwins](http://github.com/dwins))
+- Players at [MozFest]([http://mozillafestival.org])
 - Meag Doherty ([@meagdoh](https://github.com/meagdoh))
 - Jack Aponte ([@jackaponte](http://github.com/jackaponte))
 - JaimeV
 - Helyx Chase
 - Maya Wagoner ([@mayawagon](http://github.com/mayawagon))
 - Kim Garcia
-- thaneyriordan ([@thaneyriordan](https://github.com/thaneyriordan))
+- [@kaythaney](https://github.com/kaythaney)
+- [@riordan](https://github.com/riordan)
 - Stephen Soltesz ([@stephen-soltesz](http://github.com/stephen-soltesz))
 - Simone Basso ([@bassosimone](https://github.com/bassosimone))
 - Roberto D'Auria ([@evfirerob](https://github.com/evfirerob))
 - kinkade ([@kinkade](https://github.com/nkinkade))
 - oktacon 4.0 attendees
 - [@elioqoshi](https://github.com/elioqoshi) & [@uracreative](https://github.com/uracreative)
+- [Global Gathering](https://www.globalgathering.community/) 2026
+- Digital Rights Game Creators

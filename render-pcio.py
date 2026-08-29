@@ -43,7 +43,7 @@ def find_card_type_dict(o):
     else:
         return None
 
-deck = json.load(open('deck-simplified.json'))
+deck = json.load(open('deck.json'))
 template = json.load(open('widgets.json.template'))
 card_deck = find_card_deck(template)
 card_type_dict = find_card_type_dict(card_deck)
