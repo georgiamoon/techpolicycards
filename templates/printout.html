@@ -9,7 +9,6 @@
 	<div class="card-spacer">
           <div class="card-container {{card.is}}">
               <div class="card-title">{{ card.title }}</div>
-              
               {% if card.is == 'action' %}
                   <div class="vertical-text">ACTION</div>
                   {% if card.artwork %}
@@ -18,10 +17,8 @@
                    <div class="card-description">
                    {{ card.description }} 
                    </div>
-              {% endif %}
-              
-              {% if card.is == 'goal' %}
-                  <div class="vertical-text"">GOAL</div>
+              {% elif card.is == 'goal' %}
+                  <div class="vertical-text">GOAL</div>
                   {% if card.artwork %}
                   <img height=250 width=250 src="{{card.artwork}}"/>
                   {% endif %}
@@ -32,9 +29,7 @@
                       {% endfor %}
                   </ul>
                   </div>
-              {% endif %}
-              
-              {% if card.is == 'keeper' %}
+              {% elif card.is == 'keeper' %}
                 <div class="vertical-text">KEEPER</div>
                   {% if card.artwork %}
                   <img height=250 width=250 src="{{card.artwork}}"/>
@@ -42,9 +37,7 @@
                 <div class="card-description">
                   {{ card.description }} 
                 </div>
-              {% endif %}
-              
-              {% if card.is == 'rule' %}
+              {% elif card.is == 'rule' %}
                 <div class="vertical-text">RULE</div>
                   {% if card.artwork %}
                   <img height=250 width=250 src="{{card.artwork}}"/>

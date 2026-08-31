@@ -11,6 +11,7 @@ body {
   color: white;
   display: flex;
   flex-wrap: wrap;
+  gap: 0.25in;
   align-content: center;
   justify-content: space-around;
 }
@@ -41,6 +42,7 @@ body {
 @media print {
   body {
     margin: 0;
+    gap: 0;
   }
 
   .card-spacer {

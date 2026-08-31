@@ -1,10 +1,11 @@
 # Tech Policy Cards
 
-A card game, inspired by [Fluxx](https://www.looneylabs.com/games/fluxx), i.e. a game where the rules and win conditions change as you play the cards in your hand (just like life!). This game is developed around the concepts of internet health and on the issues and policies that we see in tech policy. 
+A card game, inspired by [Fluxx](https://www.looneylabs.com/games/fluxx), i.e. a game where the rules and win conditions change as you play the cards in your hand (just like life!).
+This game is developed around the concepts of internet health and on the issues and policies that we see in tech policy. 
 
 Check out the current cards in the [deck](https://techpolicy.cards/printout.html), which you can print and cut out at home.
 
-Check out the [repo on Github](https://github.com/georgiamoon/techpolicycards). Contribute to the [game](https://georgiamoon.github.io/techpolicycards/CONTRIBUTING).
+Check out the [repo on Github](https://github.com/georgiamoon/techpolicycards). Contribute to the [game](https://techpolicy.cards/CONTRIBUTING).
 
 ## Basic Play
 
@@ -35,8 +36,8 @@ Check out the [repo on Github](https://github.com/georgiamoon/techpolicycards). 
 
 ## Creating & Editing Cards 
 
-1) Edit `deck.json` to add cards.
-2) Run `render.py`.
+1) Edit `deck.json` to add cards.  Find an existing card of the type you want ("is": "keeper" for a keeper, etc), copy it, and change the words for your idea.
+2) Run `render.py`. There are some dependencies, running via `uv run render.py` will make sure they are available. Add `--help` to see options.
 3) Print the `printout.html`.
 
 Current cards in the [printout](https://techpolicy.cards/printout.html).
