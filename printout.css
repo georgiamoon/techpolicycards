@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.card-spacer {
+  break-inside: avoid;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-container {
+  background: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  border: 0.125in solid rgba(255,255,255, 0.75);
+  border-radius: 0.25in;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: 3.375in;
+  padding: 0.125in;
+  width: 2.375in;
+}
+
+@media print {
+  body {
+    margin: 0;
+  }
+
+  .card-spacer {
+    height: calc(50dvh);
+  }
+
+  .card-container {
+    height: calc(50dvh - 1in);
+    width: calc(50dvw - 1in);
+  }
+}
+
+.card-container.rule {
+  background-color: #fb3946;
+  background-image: url(assets/Rule.svg);
+}
+
+.card-container.action {
+  background-color: #511a48;
+  background-image: url(assets/Action.svg);
+}
+
+.card-container.goal {
+  background-color: #029ab0;
+  background-image: url(assets/Goal.svg);
+}
+
+.card-container.keeper {
+  background-color: #02b077;
+  background-image: url(assets/Keeper.svg);
+}
+
+.card-container.blank {
+  outline: 1px solid black;
+  outline-offset: -1px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.vertical-text {
+  flex-grow: 1;
+}
+
+:is(.rule, .action) .card-description {
+  border-radius: 12px;
+  background: rgba(0,0,0,0.4);
+  padding: 2pt 8pt;
+}
+
+.card-description ul {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 6pt;
+  list-style-type: none;
+  padding: 0;
+}
+
+.card-description li {
+  border-radius: 12px;
+  background: rgba(0,0,0,0.4);
+  display: inline;
+  padding: 2pt 8pt;
+}

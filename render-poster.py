@@ -10,4 +10,4 @@ env = Environment(
 deck = json.load(open('deck-poster.json'))
 template = env.get_template('poster.html')
 with open("poster.html", "w") as result:
-    result.write(template.render(deck).encode('utf-8'))
+    result.write(template.render(deck))
