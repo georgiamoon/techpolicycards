@@ -2,2237 +2,1002 @@
 <html>
     <head>
         <title> Tech Policy Card Game </title>
-<style>
-.card-container {
-    border: 1px solid black;
-    border-radius: 4px;
-    height: 3.5in;
-    margin: 1em;
-    width: 2.25in;
-    position: relative;
-    overflow: hidden;
-    display: inline-block;
-    page-break-inside: avoid;
-}
-
-.card-title {
-    font-family: "Verdana", "Geneva", sans-serif;
-    font-size: 11pt;
-    margin-top: 65px;
-    margin-left: 36px;
-    margin-right: 5px;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: right;
-    padding: 2px;
-}
-
-.vertical-text {
-    font-family: "Verdana", "Geneva", sans-serif;
-    transform: translate(0, -100%) rotate(90deg);
-    transform-origin: left bottom 0;
-    width: 3.5in;
-    height: .4in;
-    padding: 2px;
-    position: absolute;
-    top:0;
-    left:0;
-    z-index:-1;
-}
-
-.action .vertical-text {
-    border-top: solid black;
-    /* background-color: green; */
-}
-
-.goal .vertical-text {
-    /* background-color: pink; */
-    background: repeating-linear-gradient( 45deg, #ffffff, #ffffff 10px, #000000 10px, #000000 12px );
-    -webkit-text-stroke: 0.5px white;
-    font-weight: bold;
-}
-
-.keeper .vertical-text {
-    color: white;
-    background-color: black;
-    /* background-color: brown; */
-}
-
-.rule .vertical-text {
-    background: linear-gradient( 90deg, #ffffff, #000000 100% );
-    font-weight: bold;
-    color: black;
-    /* background-color: yellow; */
-}
-
-.card-description {
-    font-family: "Verdana", "Geneva", sans-serif;
-    font-size: 9pt;
-    position: absolute;
-    right: 1em;
-    bottom: 1em;
-    width: 11em;
-    text-align: right;
-}
-
-.card-description ul {
-    list-style-type: none;
-}
-
-.card-description li {
-    margin-bottom: 25px;
-    margin-left: -45px;
-    text-align: left;
-    width: 12em;
-}
-
-</style>
+	<link href="./printout.css" rel="stylesheet"/>
     </head>
     <body>
-        
-        <div class="card-container rule">
-            <div class="card-title"> Basic Play </div>
-            
-            
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">RULE</div>
-                
-              <div class="card-description">
-                Draw 1, Play 1 
-              </div>
-            
-        </div>
-        
-        <div class="card-container rule">
-            <div class="card-title"> Merger Consolidation </div>
-            
-            
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">RULE</div>
-                
-              <div class="card-description">
-                Two players may combine their Keepers to meet one Goal together. Both players win. 
-              </div>
-            
-        </div>
-        
-        <div class="card-container rule">
-            <div class="card-title"> Rich Bonus </div>
-            
-            
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">RULE</div>
-                
-              <div class="card-description">
-                If you have the most Keepers on the table, draw an extra card. In the case of a tie, all tied players get the bonus. 
-              </div>
-            
-        </div>
-        
-        <div class="card-container rule">
-            <div class="card-title"> Poor Bonus </div>
-            
-            
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">RULE</div>
-                
-              <div class="card-description">
-                If you have the fewest Keepers on the table, draw an extra card. In the case of a tie, both players get the bonus. 
-              </div>
-            
-        </div>
-        
-        <div class="card-container rule">
-            <div class="card-title"> Restoring a quorum </div>
-            
-            
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">RULE</div>
-                
-              <div class="card-description">
-                Draw 2, Play 2. 
-              </div>
-            
-        </div>
-        
-        <div class="card-container rule">
-            <div class="card-title"> Government requires encrypted back doors </div>
-            
-            
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">RULE</div>
-                
-              <div class="card-description">
-                Draw 1, Discard 4. 
-              </div>
-            
-        </div>
-        
-        <div class="card-container rule">
-            <div class="card-title"> Power outage </div>
-            
-            
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">RULE</div>
-                
-              <div class="card-description">
-                All technology keepers cannot be used. 
-              </div>
-            
-        </div>
-        
-        <div class="card-container rule">
-            <div class="card-title"> Technical solution to a social problem </div>
-            
-            
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">RULE</div>
-                
-              <div class="card-description">
-                Only technology keepers can be used. 
-              </div>
-            
-        </div>
-        
-        <div class="card-container rule">
-            <div class="card-title"> Recent terrorist attack </div>
-            
-            
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">RULE</div>
-                
-              <div class="card-description">
-                Goals of Privacy, Legislative victory, Policy change cannot be met while this rule is in play. 
-              </div>
-            
-        </div>
-        
-        <div class="card-container rule">
-            <div class="card-title"> Thwart the Surveillance Agencies </div>
-            
-            
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">RULE</div>
-                
-              <div class="card-description">
-                While Full Disk Encryption is in play (controlled by any player), every player may treat it as satisfying that requirement for their own Goal. 
-              </div>
-            
-        </div>
-        
-        <div class="card-container rule">
-            <div class="card-title"> Data Protection Regulation goes into effect </div>
-            
-            
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">RULE</div>
-                
-              <div class="card-description">
-                The Privacy goal can be met with just 1 keeper. 
-              </div>
-            
-        </div>
-        
-        <div class="card-container rule">
-            <div class="card-title"> Continuing Resolution </div>
-            
-            
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">RULE</div>
-                
-              <div class="card-description">
-                Draw 2. 
-              </div>
-            
-        </div>
-        
-        <div class="card-container rule">
-            <div class="card-title"> Rider Amendment </div>
-            
-            
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">RULE</div>
-                
-              <div class="card-description">
-                Play 2. 
-              </div>
-            
-        </div>
-        
-        <div class="card-container rule">
-            <div class="card-title"> Gag Order </div>
-            
-            
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">RULE</div>
-                
-              <div class="card-description">
-                Hand Limit 1. 
-              </div>
-            
-        </div>
-        
-        <div class="card-container rule">
-            <div class="card-title"> Antitrust Breakup </div>
-            
-            
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">RULE</div>
-                
-              <div class="card-description">
-                Keeper Limit 3. 
-              </div>
-            
-        </div>
-        
-        <div class="card-container rule">
-            <div class="card-title"> Traffic Shaping Policy </div>
-            
-            
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">RULE</div>
-                
-              <div class="card-description">
-                Choose a player. Their Draw is reduced by 1 (minimum 1) until this Rule leaves play. 
-              </div>
-            
-        </div>
-        
-        <div class="card-container rule">
-            <div class="card-title"> Bipartisan Agenda </div>
-            
-            
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">RULE</div>
-                
-              <div class="card-description">
-                2 Goal cards are in play. Either one can be used to win. 
-              </div>
-            
-        </div>
-        
-        <div class="card-container rule">
-            <div class="card-title"> Anonymous </div>
-            
-            
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">RULE</div>
-                
-              <div class="card-description">
-                Once per turn, a player may play one card face-down instead of face-up. It has no effect until any player reveals it on a later turn. 
-              </div>
-            
-        </div>
-        
-        <div class="card-container rule">
-            <div class="card-title"> Standards Process </div>
-            
-            
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">RULE</div>
-                
-              <div class="card-description">
-                Hand Limit 2. 
-              </div>
-            
-        </div>
-        
-        <div class="card-container rule">
-            <div class="card-title"> United Nations Resolution </div>
-            
-            
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">RULE</div>
-                
-              <div class="card-description">
-                2 Goal cards are in play. Both must be met together to win. 
-              </div>
-            
-        </div>
-        
-        <div class="card-container rule">
-            <div class="card-title"> Special Session </div>
-            
-            
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">RULE</div>
-                
-              <div class="card-description">
-                Draw 3. 
-              </div>
-            
-        </div>
-        
-        <div class="card-container rule">
-            <div class="card-title"> Divestiture </div>
-            
-            
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">RULE</div>
-                
-              <div class="card-description">
-                Keeper Limit 2. 
-              </div>
-            
-        </div>
-        
-        <div class="card-container rule">
-            <div class="card-title"> Grassroots Momentum </div>
-            
-            
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">RULE</div>
-                
-              <div class="card-description">
-                If you have no cards in your hand at the start of your turn, draw 3 extra cards. 
-              </div>
-            
-        </div>
-        
-        <div class="card-container rule">
-            <div class="card-title"> Landslide Vote </div>
-            
-            
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">RULE</div>
-                
-              <div class="card-description">
-                Play All But 1. 
-              </div>
-            
-        </div>
-        
-        <div class="card-container rule">
-            <div class="card-title"> E-Waste Recycling </div>
-            
-            
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">RULE</div>
-                
-              <div class="card-description">
-                When the Draw pile is empty, shuffle the discard pile to form a new Draw pile. 
-              </div>
-            
-        </div>
-        
-        <div class="card-container action">
-            <div class="card-title"> Sneakernet </div>
-            
-            
-                <div class="vertical-text">ACTION</div>
-                
-                 <div class="card-description">
-                 Everyone chooses one card to pass to the left.  If your hand is empty, you just receive a card (don’t have to draw or pass. 
-                 </div>
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container action">
-            <div class="card-title"> Editorial Review </div>
-            
-            
-                <div class="vertical-text">ACTION</div>
-                
-                 <div class="card-description">
-                 Discard half of any individual player&#39;s hand. You pick who is under editorial review. 
-                 </div>
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container action">
-            <div class="card-title"> Zero Day </div>
-            
-            
-                <div class="vertical-text">ACTION</div>
-                
-                 <div class="card-description">
-                 Take 1 card from up to half the players. 
-                 </div>
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container action">
-            <div class="card-title"> Data breach </div>
-            
-            
-                <div class="vertical-text">ACTION</div>
-                
-                 <div class="card-description">
-                 One player has to show their hand. 
-                 </div>
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container action">
-            <div class="card-title"> Ransomware </div>
-            
-            
-                <div class="vertical-text">ACTION</div>
-                
-                 <div class="card-description">
-                 Take all but 1 of one player&#39;s cards. You pick which player. 
-                 </div>
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container action">
-            <div class="card-title"> Mandatory Internet ID (Anonymous posting is banned) </div>
-            
-            
-                <div class="vertical-text">ACTION</div>
-                
-                 <div class="card-description">
-                 All players show keepers in their hands. 
-                 </div>
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container action">
-            <div class="card-title"> Tech Hype! </div>
-            
-            
-                <div class="vertical-text">ACTION</div>
-                
-                 <div class="card-description">
-                 Everyone gets to draw a card. 
-                 </div>
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container action">
-            <div class="card-title"> Zero Rating </div>
-            
-            
-                <div class="vertical-text">ACTION</div>
-                
-                 <div class="card-description">
-                 Choose a type of card, and then play as many of those cards as you want on your turn. 
-                 </div>
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container action">
-            <div class="card-title"> Classified information leaked </div>
-            
-            
-                <div class="vertical-text">ACTION</div>
-                
-                 <div class="card-description">
-                 Every player holding a surveillance agency has to play their keeper. Keeper limits are not enforced. 
-                 </div>
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container action">
-            <div class="card-title"> Build an Alliance </div>
-            
-            
-                <div class="vertical-text">ACTION</div>
-                
-                 <div class="card-description">
-                 Count the number of players in the game (including yourself). Draw enough cards to give 1 card to each player, and then distribute them evenly amongst all the players. You decide who gets what. 
-                 </div>
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container action">
-            <div class="card-title"> Share the Wealth </div>
-            
-            
-                <div class="vertical-text">ACTION</div>
-                
-                 <div class="card-description">
-                 Gather up all the keepers on the table. Shuffle them together, then deal them out,giving the first card to yourself. Everyone will probably end up with a different number of Keepers in play than they started with. 
-                 </div>
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container action">
-            <div class="card-title"> Flash Sale </div>
-            
-            
-                <div class="vertical-text">ACTION</div>
-                
-                 <div class="card-description">
-                 Draw 3 cards. Play up to 2 of them; discard the rest. (Playing these does not count against this turn&#39;s normal Play.) 
-                 </div>
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container action">
-            <div class="card-title"> Legislature changes hands </div>
-            
-            
-                <div class="vertical-text">ACTION</div>
-                
-                 <div class="card-description">
-                 Reset to Basic Rules. Discard all new rule cards, and leave only the basic rules in play. Do not discard the current Goal. 
-                 </div>
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container action">
-            <div class="card-title"> Remote Exploit </div>
-            
-            
-                <div class="vertical-text">ACTION</div>
-                
-                 <div class="card-description">
-                 Take any Keeper from another player&#39;s tableau and add it to yours. 
-                 </div>
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container action">
-            <div class="card-title"> Feature Deprecation </div>
-            
-            
-                <div class="vertical-text">ACTION</div>
-                
-                 <div class="card-description">
-                 Discard one Keeper from the table, your choice. 
-                 </div>
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container action">
-            <div class="card-title"> Tech Company Acquisition </div>
-            
-            
-                <div class="vertical-text">ACTION</div>
-                
-                 <div class="card-description">
-                 Trade one of your Keepers for any Keeper on the table. 
-                 </div>
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container action">
-            <div class="card-title"> Botnet </div>
-            
-            
-                <div class="vertical-text">ACTION</div>
-                
-                 <div class="card-description">
-                 Play a Keeper you don&#39;t control as if it were your own, for the purpose of meeting a Goal this turn. 
-                 </div>
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container action">
-            <div class="card-title"> Special Election </div>
-            
-            
-                <div class="vertical-text">ACTION</div>
-                
-                 <div class="card-description">
-                 Take another turn immediately after this one. 
-                 </div>
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container action">
-            <div class="card-title"> Discovery </div>
-            
-            
-                <div class="vertical-text">ACTION</div>
-                
-                 <div class="card-description">
-                 Draw one card from every other player&#39;s hand. 
-                 </div>
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container action">
-            <div class="card-title"> Disinformation </div>
-            
-            
-                <div class="vertical-text">ACTION</div>
-                
-                 <div class="card-description">
-                 Choose a player. They must discard 1 card, then draw 1 card unseen. 
-                 </div>
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container action">
-            <div class="card-title"> Wiretap </div>
-            
-            
-                <div class="vertical-text">ACTION</div>
-                
-                 <div class="card-description">
-                 Look at one player&#39;s hand. 
-                 </div>
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container action">
-            <div class="card-title"> Stingray Surveillance </div>
-            
-            
-                <div class="vertical-text">ACTION</div>
-                
-                 <div class="card-description">
-                 Look at one player&#39;s hand and take 1 card from it. 
-                 </div>
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container action">
-            <div class="card-title"> File Comments </div>
-            
-            
-                <div class="vertical-text">ACTION</div>
-                
-                 <div class="card-description">
-                 Look at the top 3 cards of the Draw pile; put them back in any order. 
-                 </div>
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container action">
-            <div class="card-title"> Communications Regulatory Agency Ruling </div>
-            
-            
-                <div class="vertical-text">ACTION</div>
-                
-                 <div class="card-description">
-                 Force one player to discard a Rule of their choice that is currently in play. 
-                 </div>
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container action">
-            <div class="card-title"> Domain Seizure </div>
-            
-            
-                <div class="vertical-text">ACTION</div>
-                
-                 <div class="card-description">
-                 Take one Keeper from another player and put it in the discard pile. No one gets it. 
-                 </div>
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container keeper">
-            <div class="card-title"> Hackers </div>
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">KEEPER</div>
-                
-              <div class="card-description">
-                 
-              </div>
-            
-            
-            
-        </div>
-        
-        <div class="card-container keeper">
-            <div class="card-title"> Country </div>
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">KEEPER</div>
-                
-              <div class="card-description">
-                 
-              </div>
-            
-            
-            
-        </div>
-        
-        <div class="card-container keeper">
-            <div class="card-title"> Civil Society </div>
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">KEEPER</div>
-                
-              <div class="card-description">
-                 
-              </div>
-            
-            
-            
-        </div>
-        
-        <div class="card-container keeper">
-            <div class="card-title"> Advocacy </div>
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">KEEPER</div>
-                
-              <div class="card-description">
-                 
-              </div>
-            
-            
-            
-        </div>
-        
-        <div class="card-container keeper">
-            <div class="card-title"> High Powered Lawyer </div>
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">KEEPER</div>
-                
-              <div class="card-description">
-                 
-              </div>
-            
-            
-            
-        </div>
-        
-        <div class="card-container keeper">
-            <div class="card-title"> Money </div>
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">KEEPER</div>
-                
-              <div class="card-description">
-                 
-              </div>
-            
-            
-            
-        </div>
-        
-        <div class="card-container keeper">
-            <div class="card-title"> Tech Company </div>
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">KEEPER</div>
-                
-              <div class="card-description">
-                 
-              </div>
-            
-            
-            
-        </div>
-        
-        <div class="card-container keeper">
-            <div class="card-title"> Lawsuit </div>
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">KEEPER</div>
-                
-              <div class="card-description">
-                 
-              </div>
-            
-            
-            
-        </div>
-        
-        <div class="card-container keeper">
-            <div class="card-title"> Surveillance Agency </div>
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">KEEPER</div>
-                
-              <div class="card-description">
-                 
-              </div>
-            
-            
-            
-        </div>
-        
-        <div class="card-container keeper">
-            <div class="card-title"> Blockchain </div>
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">KEEPER</div>
-                
-              <div class="card-description">
-                 
-              </div>
-            
-            
-            
-        </div>
-        
-        <div class="card-container keeper">
-            <div class="card-title"> Internet Service Providers (ISPs) </div>
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">KEEPER</div>
-                
-              <div class="card-description">
-                 
-              </div>
-            
-            
-            
-        </div>
-        
-        <div class="card-container keeper">
-            <div class="card-title"> Political Activity </div>
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">KEEPER</div>
-                
-              <div class="card-description">
-                 
-              </div>
-            
-            
-            
-        </div>
-        
-        <div class="card-container keeper">
-            <div class="card-title"> Progressive Hosting Organization </div>
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">KEEPER</div>
-                
-              <div class="card-description">
-                 
-              </div>
-            
-            
-            
-        </div>
-        
-        <div class="card-container keeper">
-            <div class="card-title"> Full Disk Encryption </div>
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">KEEPER</div>
-                
-              <div class="card-description">
-                 
-              </div>
-            
-            
-            
-        </div>
-        
-        <div class="card-container keeper">
-            <div class="card-title"> Subpoena </div>
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">KEEPER</div>
-                
-              <div class="card-description">
-                 
-              </div>
-            
-            
-            
-        </div>
-        
-        <div class="card-container keeper">
-            <div class="card-title"> Peer to Peer (P2P) </div>
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">KEEPER</div>
-                
-              <div class="card-description">
-                 
-              </div>
-            
-            
-            
-        </div>
-        
-        <div class="card-container keeper">
-            <div class="card-title"> Gold Standard </div>
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">KEEPER</div>
-                
-              <div class="card-description">
-                 
-              </div>
-            
-            
-            
-        </div>
-        
-        <div class="card-container keeper">
-            <div class="card-title"> Mesh Networking </div>
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">KEEPER</div>
-                
-              <div class="card-description">
-                 
-              </div>
-            
-            
-            
-        </div>
-        
-        <div class="card-container keeper">
-            <div class="card-title"> IPv6 </div>
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">KEEPER</div>
-                
-              <div class="card-description">
-                 
-              </div>
-            
-            
-            
-        </div>
-        
-        <div class="card-container keeper">
-            <div class="card-title"> Tenure </div>
-            
-            
-            
-            
-            
-            
-              <div class="vertical-text">KEEPER</div>
-                
-              <div class="card-description">
-                 
-              </div>
-            
-            
-            
-        </div>
-        
-        <div class="card-container goal">
-            <div class="card-title"> Internet Blackout </div>
-            
-            
-            
-            
-                <div class="vertical-text"">GOAL</div>
-                
+	<div class="card-spacer">
+          <div class="card-container rule">
+              <div class="card-title">Basic Play</div>
+                <div class="vertical-text">RULE</div>
                 <div class="card-description">
-                <ul>
-                    
-                    <li> Political Activity </li>
-                    
-                    <li> Internet Service Providers (ISPs) </li>
-                    
-                    <li> Country </li>
-                    
-                </ul>
+                  Draw 1, Play 1 
                 </div>
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container goal">
-            <div class="card-title"> New TLDs released </div>
-            
-            
-            
-            
-                <div class="vertical-text"">GOAL</div>
-                
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container rule">
+              <div class="card-title">Merger Consolidation</div>
+                <div class="vertical-text">RULE</div>
                 <div class="card-description">
-                <ul>
-                    
-                    <li> Tech Company </li>
-                    
-                    <li> IPv6 </li>
-                    
-                </ul>
+                  Two players may combine their Keepers to meet one Goal together. Both players win. 
                 </div>
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container goal">
-            <div class="card-title"> Reverse an Internet Shutdown </div>
-            
-            
-            
-            
-                <div class="vertical-text"">GOAL</div>
-                
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container rule">
+              <div class="card-title">Rich Bonus</div>
+                <div class="vertical-text">RULE</div>
                 <div class="card-description">
-                <ul>
-                    
-                    <li> Political Activity </li>
-                    
-                    <li> Country </li>
-                    
-                </ul>
+                  If you have the most Keepers on the table, draw an extra card. In the case of a tie, all tied players get the bonus. 
                 </div>
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container goal">
-            <div class="card-title"> Net neutrality </div>
-            
-            
-            
-            
-                <div class="vertical-text"">GOAL</div>
-                
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container rule">
+              <div class="card-title">Poor Bonus</div>
+                <div class="vertical-text">RULE</div>
                 <div class="card-description">
-                <ul>
-                    
-                    <li> Internet Service Providers (ISPs) </li>
-                    
-                    <li> Advocacy </li>
-                    
-                </ul>
+                  If you have the fewest Keepers on the table, draw an extra card. In the case of a tie, both players get the bonus. 
                 </div>
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container goal">
-            <div class="card-title"> Win a High Court Case </div>
-            
-            
-            
-            
-                <div class="vertical-text"">GOAL</div>
-                
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container rule">
+              <div class="card-title">Restoring a quorum</div>
+                <div class="vertical-text">RULE</div>
                 <div class="card-description">
-                <ul>
-                    
-                    <li> High Powered Lawyer </li>
-                    
-                    <li> Country </li>
-                    
-                </ul>
+                  Draw 2, Play 2. 
                 </div>
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container goal">
-            <div class="card-title"> New protocol </div>
-            
-            
-            
-            
-                <div class="vertical-text"">GOAL</div>
-                
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container rule">
+              <div class="card-title">Government requires encrypted back doors</div>
+                <div class="vertical-text">RULE</div>
                 <div class="card-description">
-                <ul>
-                    
-                    <li> Tech Company </li>
-                    
-                    <li> Mesh Networking </li>
-                    
-                </ul>
+                  Draw 1, Discard 4. 
                 </div>
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container goal">
-            <div class="card-title"> Policy change </div>
-            
-            
-            
-            
-                <div class="vertical-text"">GOAL</div>
-                
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container rule">
+              <div class="card-title">Power outage</div>
+                <div class="vertical-text">RULE</div>
                 <div class="card-description">
-                <ul>
-                    
-                    <li> Advocacy </li>
-                    
-                    <li> Civil Society </li>
-                    
-                </ul>
+                  All technology keepers cannot be used. 
                 </div>
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container goal">
-            <div class="card-title"> Coalition </div>
-            
-            
-            
-            
-                <div class="vertical-text"">GOAL</div>
-                
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container rule">
+              <div class="card-title">Technical solution to a social problem</div>
+                <div class="vertical-text">RULE</div>
                 <div class="card-description">
-                <ul>
-                    
-                    <li> Tech Company </li>
-                    
-                    <li> Civil Society </li>
-                    
-                </ul>
+                  Only technology keepers can be used. 
                 </div>
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container goal">
-            <div class="card-title"> Regulatory win </div>
-            
-            
-            
-            
-                <div class="vertical-text"">GOAL</div>
-                
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container rule">
+              <div class="card-title">Recent terrorist attack</div>
+                <div class="vertical-text">RULE</div>
                 <div class="card-description">
-                <ul>
-                    
-                    <li> Advocacy </li>
-                    
-                    <li> High Powered Lawyer </li>
-                    
-                </ul>
+                  Goals of Privacy, Legislative victory, Policy change cannot be met while this rule is in play. 
                 </div>
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container goal">
-            <div class="card-title"> Legislative victory </div>
-            
-            
-            
-            
-                <div class="vertical-text"">GOAL</div>
-                
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container rule">
+              <div class="card-title">Thwart the Surveillance Agencies</div>
+                <div class="vertical-text">RULE</div>
                 <div class="card-description">
-                <ul>
-                    
-                    <li> Money </li>
-                    
-                    <li> Political Activity </li>
-                    
-                </ul>
+                  While Full Disk Encryption is in play (controlled by any player), every player may treat it as satisfying that requirement for their own Goal. 
                 </div>
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container goal">
-            <div class="card-title"> Privacy </div>
-            
-            
-            
-            
-                <div class="vertical-text"">GOAL</div>
-                
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container rule">
+              <div class="card-title">Data Protection Regulation goes into effect</div>
+                <div class="vertical-text">RULE</div>
                 <div class="card-description">
-                <ul>
-                    
-                    <li> Country </li>
-                    
-                    <li> Lawsuit </li>
-                    
-                </ul>
+                  The Privacy goal can be met with just 1 keeper. 
                 </div>
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container goal">
-            <div class="card-title"> Surveil all the things </div>
-            
-            
-            
-            
-                <div class="vertical-text"">GOAL</div>
-                
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container rule">
+              <div class="card-title">Continuing Resolution</div>
+                <div class="vertical-text">RULE</div>
                 <div class="card-description">
-                <ul>
-                    
-                    <li> Surveillance Agency </li>
-                    
-                    <li> Hackers </li>
-                    
-                    <li> Country </li>
-                    
-                </ul>
+                  Draw 2. 
                 </div>
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container goal">
-            <div class="card-title"> Dark Web </div>
-            
-            
-            
-            
-                <div class="vertical-text"">GOAL</div>
-                
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container rule">
+              <div class="card-title">Rider Amendment</div>
+                <div class="vertical-text">RULE</div>
                 <div class="card-description">
-                <ul>
-                    
-                    <li> Blockchain </li>
-                    
-                    <li> Hackers </li>
-                    
-                    <li> Money </li>
-                    
-                </ul>
+                  Play 2. 
                 </div>
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container goal">
-            <div class="card-title"> Decentralized web </div>
-            
-            
-            
-            
-                <div class="vertical-text"">GOAL</div>
-                
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container rule">
+              <div class="card-title">Gag Order</div>
+                <div class="vertical-text">RULE</div>
                 <div class="card-description">
-                <ul>
-                    
-                    <li> Blockchain </li>
-                    
-                    <li> Peer to Peer (P2P) </li>
-                    
-                </ul>
+                  Hand Limit 1. 
                 </div>
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container goal">
-            <div class="card-title"> Digital Rights Management (DRM) </div>
-            
-            
-            
-            
-                <div class="vertical-text"">GOAL</div>
-                
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container rule">
+              <div class="card-title">Antitrust Breakup</div>
+                <div class="vertical-text">RULE</div>
                 <div class="card-description">
-                <ul>
-                    
-                    <li> Tech Company </li>
-                    
-                    <li> Money </li>
-                    
-                </ul>
+                  Keeper Limit 3. 
                 </div>
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container goal">
-            <div class="card-title"> Universal Digital Rights </div>
-            
-            
-            
-            
-                <div class="vertical-text"">GOAL</div>
-                
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container rule">
+              <div class="card-title">Traffic Shaping Policy</div>
+                <div class="vertical-text">RULE</div>
                 <div class="card-description">
-                <ul>
-                    
-                    <li> Civil Society </li>
-                    
-                    <li> Country </li>
-                    
-                </ul>
+                  Choose a player. Their Draw is reduced by 1 (minimum 1) until this Rule leaves play. 
                 </div>
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container goal">
-            <div class="card-title"> Vulnerabilities Equities Process (VEP) </div>
-            
-            
-            
-            
-                <div class="vertical-text"">GOAL</div>
-                
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container rule">
+              <div class="card-title">Bipartisan Agenda</div>
+                <div class="vertical-text">RULE</div>
                 <div class="card-description">
-                <ul>
-                    
-                    <li> Tech Company </li>
-                    
-                    <li> Hackers </li>
-                    
-                </ul>
+                  2 Goal cards are in play. Either one can be used to win. 
                 </div>
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container goal">
-            <div class="card-title"> Government Hacking </div>
-            
-            
-            
-            
-                <div class="vertical-text"">GOAL</div>
-                
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container rule">
+              <div class="card-title">Anonymous</div>
+                <div class="vertical-text">RULE</div>
                 <div class="card-description">
-                <ul>
-                    
-                    <li> Surveillance Agency </li>
-                    
-                    <li> Hackers </li>
-                    
-                </ul>
+                  Once per turn, a player may play one card face-down instead of face-up. It has no effect until any player reveals it on a later turn. 
                 </div>
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container goal">
-            <div class="card-title"> Zero Knowledge Server </div>
-            
-            
-            
-            
-                <div class="vertical-text"">GOAL</div>
-                
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container rule">
+              <div class="card-title">Standards Process</div>
+                <div class="vertical-text">RULE</div>
                 <div class="card-description">
-                <ul>
-                    
-                    <li> Full Disk Encryption </li>
-                    
-                    <li> Progressive Hosting Organization </li>
-                    
-                </ul>
+                  Hand Limit 2. 
                 </div>
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container goal">
-            <div class="card-title"> Thwart the State Surveillance Agency </div>
-            
-            
-            
-            
-                <div class="vertical-text"">GOAL</div>
-                
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container rule">
+              <div class="card-title">United Nations Resolution</div>
+                <div class="vertical-text">RULE</div>
                 <div class="card-description">
-                <ul>
-                    
-                    <li> Full Disk Encryption </li>
-                    
-                    <li> Progressive Hosting Organization </li>
-                    
-                    <li> Subpoena </li>
-                    
-                </ul>
+                  2 Goal cards are in play. Both must be met together to win. 
                 </div>
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container goal">
-            <div class="card-title"> Publish or Perish </div>
-            
-            
-            
-            
-                <div class="vertical-text"">GOAL</div>
-                
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container rule">
+              <div class="card-title">Special Session</div>
+                <div class="vertical-text">RULE</div>
                 <div class="card-description">
-                <ul>
-                    
-                    <li> Tenure </li>
-                    
-                    <li> Money </li>
-                    
-                </ul>
+                  Draw 3. 
                 </div>
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container goal">
-            <div class="card-title"> Community Network </div>
-            
-            
-            
-            
-                <div class="vertical-text"">GOAL</div>
-                
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container rule">
+              <div class="card-title">Divestiture</div>
+                <div class="vertical-text">RULE</div>
                 <div class="card-description">
-                <ul>
-                    
-                    <li> Mesh Networking </li>
-                    
-                    <li> IPv6 </li>
-                    
-                </ul>
+                  Keeper Limit 2. 
                 </div>
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container goal">
-            <div class="card-title"> Digital Currency Standard </div>
-            
-            
-            
-            
-                <div class="vertical-text"">GOAL</div>
-                
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container rule">
+              <div class="card-title">Grassroots Momentum</div>
+                <div class="vertical-text">RULE</div>
                 <div class="card-description">
-                <ul>
-                    
-                    <li> Gold Standard </li>
-                    
-                    <li> Blockchain </li>
-                    
-                </ul>
+                  If you have no cards in your hand at the start of your turn, draw 3 extra cards. 
                 </div>
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container goal">
-            <div class="card-title"> Transparency Report </div>
-            
-            
-            
-            
-                <div class="vertical-text"">GOAL</div>
-                
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container rule">
+              <div class="card-title">Landslide Vote</div>
+                <div class="vertical-text">RULE</div>
                 <div class="card-description">
-                <ul>
-                    
-                    <li> Subpoena </li>
-                    
-                    <li> Advocacy </li>
-                    
-                </ul>
+                  Play All But 1. 
                 </div>
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container goal">
-            <div class="card-title"> Whistleblower Protection </div>
-            
-            
-            
-            
-                <div class="vertical-text"">GOAL</div>
-                
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container rule">
+              <div class="card-title">E-Waste Recycling</div>
+                <div class="vertical-text">RULE</div>
                 <div class="card-description">
-                <ul>
-                    
-                    <li> Lawsuit </li>
-                    
-                    <li> Subpoena </li>
-                    
-                </ul>
+                  When the Draw pile is empty, shuffle the discard pile to form a new Draw pile. 
                 </div>
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container goal">
-            <div class="card-title"> Cyberwarfare </div>
-            
-            
-            
-            
-                <div class="vertical-text"">GOAL</div>
-                
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container action">
+              <div class="card-title">Sneakernet</div>
+                  <div class="vertical-text">ACTION</div>
+                   <div class="card-description">
+                   Everyone chooses one card to pass to the left.  If your hand is empty, you just receive a card (don’t have to draw or pass. 
+                   </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container action">
+              <div class="card-title">Editorial Review</div>
+                  <div class="vertical-text">ACTION</div>
+                   <div class="card-description">
+                   Discard half of any individual player&#39;s hand. You pick who is under editorial review. 
+                   </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container action">
+              <div class="card-title">Zero Day</div>
+                  <div class="vertical-text">ACTION</div>
+                   <div class="card-description">
+                   Take 1 card from up to half the players. 
+                   </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container action">
+              <div class="card-title">Data breach</div>
+                  <div class="vertical-text">ACTION</div>
+                   <div class="card-description">
+                   One player has to show their hand. 
+                   </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container action">
+              <div class="card-title">Ransomware</div>
+                  <div class="vertical-text">ACTION</div>
+                   <div class="card-description">
+                   Take all but 1 of one player&#39;s cards. You pick which player. 
+                   </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container action">
+              <div class="card-title">Mandatory Internet ID (Anonymous posting is banned)</div>
+                  <div class="vertical-text">ACTION</div>
+                   <div class="card-description">
+                   All players show keepers in their hands. 
+                   </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container action">
+              <div class="card-title">Tech Hype!</div>
+                  <div class="vertical-text">ACTION</div>
+                   <div class="card-description">
+                   Everyone gets to draw a card. 
+                   </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container action">
+              <div class="card-title">Zero Rating</div>
+                  <div class="vertical-text">ACTION</div>
+                   <div class="card-description">
+                   Choose a type of card, and then play as many of those cards as you want on your turn. 
+                   </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container action">
+              <div class="card-title">Classified information leaked</div>
+                  <div class="vertical-text">ACTION</div>
+                   <div class="card-description">
+                   Every player holding a surveillance agency has to play their keeper. Keeper limits are not enforced. 
+                   </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container action">
+              <div class="card-title">Build an Alliance</div>
+                  <div class="vertical-text">ACTION</div>
+                   <div class="card-description">
+                   Count the number of players in the game (including yourself). Draw enough cards to give 1 card to each player, and then distribute them evenly amongst all the players. You decide who gets what. 
+                   </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container action">
+              <div class="card-title">Share the Wealth</div>
+                  <div class="vertical-text">ACTION</div>
+                   <div class="card-description">
+                   Gather up all the keepers on the table. Shuffle them together, then deal them out,giving the first card to yourself. Everyone will probably end up with a different number of Keepers in play than they started with. 
+                   </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container action">
+              <div class="card-title">Flash Sale</div>
+                  <div class="vertical-text">ACTION</div>
+                   <div class="card-description">
+                   Draw 3 cards. Play up to 2 of them; discard the rest. (Playing these does not count against this turn&#39;s normal Play.) 
+                   </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container action">
+              <div class="card-title">Legislature changes hands</div>
+                  <div class="vertical-text">ACTION</div>
+                   <div class="card-description">
+                   Reset to Basic Rules. Discard all new rule cards, and leave only the basic rules in play. Do not discard the current Goal. 
+                   </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container action">
+              <div class="card-title">Remote Exploit</div>
+                  <div class="vertical-text">ACTION</div>
+                   <div class="card-description">
+                   Take any Keeper from another player&#39;s tableau and add it to yours. 
+                   </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container action">
+              <div class="card-title">Feature Deprecation</div>
+                  <div class="vertical-text">ACTION</div>
+                   <div class="card-description">
+                   Discard one Keeper from the table, your choice. 
+                   </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container action">
+              <div class="card-title">Tech Company Acquisition</div>
+                  <div class="vertical-text">ACTION</div>
+                   <div class="card-description">
+                   Trade one of your Keepers for any Keeper on the table. 
+                   </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container action">
+              <div class="card-title">Botnet</div>
+                  <div class="vertical-text">ACTION</div>
+                   <div class="card-description">
+                   Play a Keeper you don&#39;t control as if it were your own, for the purpose of meeting a Goal this turn. 
+                   </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container action">
+              <div class="card-title">Special Election</div>
+                  <div class="vertical-text">ACTION</div>
+                   <div class="card-description">
+                   Take another turn immediately after this one. 
+                   </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container action">
+              <div class="card-title">Discovery</div>
+                  <div class="vertical-text">ACTION</div>
+                   <div class="card-description">
+                   Draw one card from every other player&#39;s hand. 
+                   </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container action">
+              <div class="card-title">Disinformation</div>
+                  <div class="vertical-text">ACTION</div>
+                   <div class="card-description">
+                   Choose a player. They must discard 1 card, then draw 1 card unseen. 
+                   </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container action">
+              <div class="card-title">Wiretap</div>
+                  <div class="vertical-text">ACTION</div>
+                   <div class="card-description">
+                   Look at one player&#39;s hand. 
+                   </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container action">
+              <div class="card-title">Stingray Surveillance</div>
+                  <div class="vertical-text">ACTION</div>
+                   <div class="card-description">
+                   Look at one player&#39;s hand and take 1 card from it. 
+                   </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container action">
+              <div class="card-title">File Comments</div>
+                  <div class="vertical-text">ACTION</div>
+                   <div class="card-description">
+                   Look at the top 3 cards of the Draw pile; put them back in any order. 
+                   </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container action">
+              <div class="card-title">Communications Regulatory Agency Ruling</div>
+                  <div class="vertical-text">ACTION</div>
+                   <div class="card-description">
+                   Force one player to discard a Rule of their choice that is currently in play. 
+                   </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container action">
+              <div class="card-title">Domain Seizure</div>
+                  <div class="vertical-text">ACTION</div>
+                   <div class="card-description">
+                   Take one Keeper from another player and put it in the discard pile. No one gets it. 
+                   </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container keeper">
+              <div class="card-title">Hackers</div>
+                <div class="vertical-text">KEEPER</div>
                 <div class="card-description">
-                <ul>
-                    
-                    <li> Hackers </li>
-                    
-                    <li> Blockchain </li>
-                    
-                </ul>
+                   
                 </div>
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container goal">
-            <div class="card-title"> Grassroots Campaign </div>
-            
-            
-            
-            
-                <div class="vertical-text"">GOAL</div>
-                
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container keeper">
+              <div class="card-title">Country</div>
+                <div class="vertical-text">KEEPER</div>
                 <div class="card-description">
-                <ul>
-                    
-                    <li> Civil Society </li>
-                    
-                    <li> Political Activity </li>
-                    
-                </ul>
+                   
                 </div>
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container goal">
-            <div class="card-title"> Digital Divide Closed </div>
-            
-            
-            
-            
-                <div class="vertical-text"">GOAL</div>
-                
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container keeper">
+              <div class="card-title">Civil Society</div>
+                <div class="vertical-text">KEEPER</div>
                 <div class="card-description">
-                <ul>
-                    
-                    <li> Internet Service Providers (ISPs) </li>
-                    
-                    <li> Civil Society </li>
-                    
-                </ul>
+                   
                 </div>
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container goal">
-            <div class="card-title"> Break Up Big Tech </div>
-            
-            
-            
-            
-                <div class="vertical-text"">GOAL</div>
-                
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container keeper">
+              <div class="card-title">Advocacy</div>
+                <div class="vertical-text">KEEPER</div>
                 <div class="card-description">
-                <ul>
-                    
-                    <li> Tech Company </li>
-                    
-                    <li> High Powered Lawyer </li>
-                    
-                </ul>
+                   
                 </div>
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container goal">
-            <div class="card-title"> Encryption Backdoor Blocked </div>
-            
-            
-            
-            
-                <div class="vertical-text"">GOAL</div>
-                
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container keeper">
+              <div class="card-title">High Powered Lawyer</div>
+                <div class="vertical-text">KEEPER</div>
                 <div class="card-description">
-                <ul>
-                    
-                    <li> Full Disk Encryption </li>
-                    
-                    <li> Lawsuit </li>
-                    
-                </ul>
+                   
                 </div>
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container blank">
-            <div class="card-title"> None </div>
-            
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container blank">
-            <div class="card-title"> None </div>
-            
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container blank">
-            <div class="card-title"> None </div>
-            
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container blank">
-            <div class="card-title"> None </div>
-            
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container blank">
-            <div class="card-title"> None </div>
-            
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container blank">
-            <div class="card-title"> None </div>
-            
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container blank">
-            <div class="card-title"> None </div>
-            
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container blank">
-            <div class="card-title"> None </div>
-            
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container blank">
-            <div class="card-title"> None </div>
-            
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container blank">
-            <div class="card-title"> None </div>
-            
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container blank">
-            <div class="card-title"> None </div>
-            
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container blank">
-            <div class="card-title"> None </div>
-            
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
-        <div class="card-container blank">
-            <div class="card-title"> None </div>
-            
-            
-            
-            
-            
-            
-            
-            
-        </div>
-        
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container keeper">
+              <div class="card-title">Money</div>
+                <div class="vertical-text">KEEPER</div>
+                <div class="card-description">
+                   
+                </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container keeper">
+              <div class="card-title">Tech Company</div>
+                <div class="vertical-text">KEEPER</div>
+                <div class="card-description">
+                   
+                </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container keeper">
+              <div class="card-title">Lawsuit</div>
+                <div class="vertical-text">KEEPER</div>
+                <div class="card-description">
+                   
+                </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container keeper">
+              <div class="card-title">Surveillance Agency</div>
+                <div class="vertical-text">KEEPER</div>
+                <div class="card-description">
+                   
+                </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container keeper">
+              <div class="card-title">Blockchain</div>
+                <div class="vertical-text">KEEPER</div>
+                <div class="card-description">
+                   
+                </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container keeper">
+              <div class="card-title">Internet Service Providers (ISPs)</div>
+                <div class="vertical-text">KEEPER</div>
+                <div class="card-description">
+                   
+                </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container keeper">
+              <div class="card-title">Political Activity</div>
+                <div class="vertical-text">KEEPER</div>
+                <div class="card-description">
+                   
+                </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container keeper">
+              <div class="card-title">Progressive Hosting Organization</div>
+                <div class="vertical-text">KEEPER</div>
+                <div class="card-description">
+                   
+                </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container keeper">
+              <div class="card-title">Full Disk Encryption</div>
+                <div class="vertical-text">KEEPER</div>
+                <div class="card-description">
+                   
+                </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container keeper">
+              <div class="card-title">Subpoena</div>
+                <div class="vertical-text">KEEPER</div>
+                <div class="card-description">
+                   
+                </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container keeper">
+              <div class="card-title">Peer to Peer (P2P)</div>
+                <div class="vertical-text">KEEPER</div>
+                <div class="card-description">
+                   
+                </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container keeper">
+              <div class="card-title">Gold Standard</div>
+                <div class="vertical-text">KEEPER</div>
+                <div class="card-description">
+                   
+                </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container keeper">
+              <div class="card-title">Mesh Networking</div>
+                <div class="vertical-text">KEEPER</div>
+                <div class="card-description">
+                   
+                </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container keeper">
+              <div class="card-title">IPv6</div>
+                <div class="vertical-text">KEEPER</div>
+                <div class="card-description">
+                   
+                </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container keeper">
+              <div class="card-title">Tenure</div>
+                <div class="vertical-text">KEEPER</div>
+                <div class="card-description">
+                   
+                </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container goal">
+              <div class="card-title">Internet Blackout</div>
+                  <div class="vertical-text">GOAL</div>
+                  <div class="card-description">
+                  <ul>
+                      <li> Political Activity </li>
+                      <li> Internet Service Providers (ISPs) </li>
+                      <li> Country </li>
+                  </ul>
+                  </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container goal">
+              <div class="card-title">New TLDs released</div>
+                  <div class="vertical-text">GOAL</div>
+                  <div class="card-description">
+                  <ul>
+                      <li> Tech Company </li>
+                      <li> IPv6 </li>
+                  </ul>
+                  </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container goal">
+              <div class="card-title">Reverse an Internet Shutdown</div>
+                  <div class="vertical-text">GOAL</div>
+                  <div class="card-description">
+                  <ul>
+                      <li> Political Activity </li>
+                      <li> Country </li>
+                  </ul>
+                  </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container goal">
+              <div class="card-title">Net neutrality</div>
+                  <div class="vertical-text">GOAL</div>
+                  <div class="card-description">
+                  <ul>
+                      <li> Internet Service Providers (ISPs) </li>
+                      <li> Advocacy </li>
+                  </ul>
+                  </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container goal">
+              <div class="card-title">Win a High Court Case</div>
+                  <div class="vertical-text">GOAL</div>
+                  <div class="card-description">
+                  <ul>
+                      <li> High Powered Lawyer </li>
+                      <li> Country </li>
+                  </ul>
+                  </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container goal">
+              <div class="card-title">New protocol</div>
+                  <div class="vertical-text">GOAL</div>
+                  <div class="card-description">
+                  <ul>
+                      <li> Tech Company </li>
+                      <li> Mesh Networking </li>
+                  </ul>
+                  </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container goal">
+              <div class="card-title">Policy change</div>
+                  <div class="vertical-text">GOAL</div>
+                  <div class="card-description">
+                  <ul>
+                      <li> Advocacy </li>
+                      <li> Civil Society </li>
+                  </ul>
+                  </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container goal">
+              <div class="card-title">Coalition</div>
+                  <div class="vertical-text">GOAL</div>
+                  <div class="card-description">
+                  <ul>
+                      <li> Tech Company </li>
+                      <li> Civil Society </li>
+                  </ul>
+                  </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container goal">
+              <div class="card-title">Regulatory win</div>
+                  <div class="vertical-text">GOAL</div>
+                  <div class="card-description">
+                  <ul>
+                      <li> Advocacy </li>
+                      <li> High Powered Lawyer </li>
+                  </ul>
+                  </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container goal">
+              <div class="card-title">Legislative victory</div>
+                  <div class="vertical-text">GOAL</div>
+                  <div class="card-description">
+                  <ul>
+                      <li> Money </li>
+                      <li> Political Activity </li>
+                  </ul>
+                  </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container goal">
+              <div class="card-title">Privacy</div>
+                  <div class="vertical-text">GOAL</div>
+                  <div class="card-description">
+                  <ul>
+                      <li> Country </li>
+                      <li> Lawsuit </li>
+                  </ul>
+                  </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container goal">
+              <div class="card-title">Surveil all the things</div>
+                  <div class="vertical-text">GOAL</div>
+                  <div class="card-description">
+                  <ul>
+                      <li> Surveillance Agency </li>
+                      <li> Hackers </li>
+                      <li> Country </li>
+                  </ul>
+                  </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container goal">
+              <div class="card-title">Dark Web</div>
+                  <div class="vertical-text">GOAL</div>
+                  <div class="card-description">
+                  <ul>
+                      <li> Blockchain </li>
+                      <li> Hackers </li>
+                      <li> Money </li>
+                  </ul>
+                  </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container goal">
+              <div class="card-title">Decentralized web</div>
+                  <div class="vertical-text">GOAL</div>
+                  <div class="card-description">
+                  <ul>
+                      <li> Blockchain </li>
+                      <li> Peer to Peer (P2P) </li>
+                  </ul>
+                  </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container goal">
+              <div class="card-title">Digital Rights Management (DRM)</div>
+                  <div class="vertical-text">GOAL</div>
+                  <div class="card-description">
+                  <ul>
+                      <li> Tech Company </li>
+                      <li> Money </li>
+                  </ul>
+                  </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container goal">
+              <div class="card-title">Universal Digital Rights</div>
+                  <div class="vertical-text">GOAL</div>
+                  <div class="card-description">
+                  <ul>
+                      <li> Civil Society </li>
+                      <li> Country </li>
+                  </ul>
+                  </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container goal">
+              <div class="card-title">Vulnerabilities Equities Process (VEP)</div>
+                  <div class="vertical-text">GOAL</div>
+                  <div class="card-description">
+                  <ul>
+                      <li> Tech Company </li>
+                      <li> Hackers </li>
+                  </ul>
+                  </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container goal">
+              <div class="card-title">Government Hacking</div>
+                  <div class="vertical-text">GOAL</div>
+                  <div class="card-description">
+                  <ul>
+                      <li> Surveillance Agency </li>
+                      <li> Hackers </li>
+                  </ul>
+                  </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container goal">
+              <div class="card-title">Zero Knowledge Server</div>
+                  <div class="vertical-text">GOAL</div>
+                  <div class="card-description">
+                  <ul>
+                      <li> Full Disk Encryption </li>
+                      <li> Progressive Hosting Organization </li>
+                  </ul>
+                  </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container goal">
+              <div class="card-title">Thwart the State Surveillance Agency</div>
+                  <div class="vertical-text">GOAL</div>
+                  <div class="card-description">
+                  <ul>
+                      <li> Full Disk Encryption </li>
+                      <li> Progressive Hosting Organization </li>
+                      <li> Subpoena </li>
+                  </ul>
+                  </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container goal">
+              <div class="card-title">Publish or Perish</div>
+                  <div class="vertical-text">GOAL</div>
+                  <div class="card-description">
+                  <ul>
+                      <li> Tenure </li>
+                      <li> Money </li>
+                  </ul>
+                  </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container goal">
+              <div class="card-title">Community Network</div>
+                  <div class="vertical-text">GOAL</div>
+                  <div class="card-description">
+                  <ul>
+                      <li> Mesh Networking </li>
+                      <li> IPv6 </li>
+                  </ul>
+                  </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container goal">
+              <div class="card-title">Digital Currency Standard</div>
+                  <div class="vertical-text">GOAL</div>
+                  <div class="card-description">
+                  <ul>
+                      <li> Gold Standard </li>
+                      <li> Blockchain </li>
+                  </ul>
+                  </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container goal">
+              <div class="card-title">Transparency Report</div>
+                  <div class="vertical-text">GOAL</div>
+                  <div class="card-description">
+                  <ul>
+                      <li> Subpoena </li>
+                      <li> Advocacy </li>
+                  </ul>
+                  </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container goal">
+              <div class="card-title">Whistleblower Protection</div>
+                  <div class="vertical-text">GOAL</div>
+                  <div class="card-description">
+                  <ul>
+                      <li> Lawsuit </li>
+                      <li> Subpoena </li>
+                  </ul>
+                  </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container goal">
+              <div class="card-title">Cyberwarfare</div>
+                  <div class="vertical-text">GOAL</div>
+                  <div class="card-description">
+                  <ul>
+                      <li> Hackers </li>
+                      <li> Blockchain </li>
+                  </ul>
+                  </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container goal">
+              <div class="card-title">Grassroots Campaign</div>
+                  <div class="vertical-text">GOAL</div>
+                  <div class="card-description">
+                  <ul>
+                      <li> Civil Society </li>
+                      <li> Political Activity </li>
+                  </ul>
+                  </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container goal">
+              <div class="card-title">Digital Divide Closed</div>
+                  <div class="vertical-text">GOAL</div>
+                  <div class="card-description">
+                  <ul>
+                      <li> Internet Service Providers (ISPs) </li>
+                      <li> Civil Society </li>
+                  </ul>
+                  </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container goal">
+              <div class="card-title">Break Up Big Tech</div>
+                  <div class="vertical-text">GOAL</div>
+                  <div class="card-description">
+                  <ul>
+                      <li> Tech Company </li>
+                      <li> High Powered Lawyer </li>
+                  </ul>
+                  </div>
+          </div>
+	</div>
+	<div class="card-spacer">
+          <div class="card-container goal">
+              <div class="card-title">Encryption Backdoor Blocked</div>
+                  <div class="vertical-text">GOAL</div>
+                  <div class="card-description">
+                  <ul>
+                      <li> Full Disk Encryption </li>
+                      <li> Lawsuit </li>
+                  </ul>
+                  </div>
+          </div>
+	</div>
     </body>
 </html>
